@@ -127,7 +127,9 @@ Rules:
         },
       });
 
-      const text = geminiResponse.text;
+      // Get text response - works with both real API and mock
+      const rawText = geminiResponse.text;
+      const text = typeof rawText === 'function' ? rawText() : rawText;
       if (!text) {
         throw new Error("No response content received from Gemini model.");
       }

@@ -1,0 +1,130 @@
+{
+  "entities": {
+    "customers": {
+      "title": "Customer",
+      "description": "Represents a customer in the CRM",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique UUID of the customer" },
+        "name": { "type": "string", "description": "Full name of the customer" },
+        "email": { "type": "string", "description": "Email address of the customer" },
+        "phone": { "type": "string", "description": "Phone number with +91 prefix" },
+        "city": { "type": "string", "description": "City of residence in India" },
+        "total_orders": { "type": "integer", "description": "Total count of orders completed" },
+        "total_spent": { "type": "number", "description": "Total amount spent in INR" },
+        "last_purchase_date": { "type": "string", "format": "date", "description": "Date of last purchase" },
+        "tags": { "type": "array", "description": "Tags of customer loyalty, lapsing, etc." },
+        "created_at": { "type": "string", "format": "date-time", "description": "Record creation timestamp" }
+      },
+      "required": ["id", "name", "email"]
+    },
+    "orders": {
+      "title": "Order",
+      "description": "Represents an order placed by a customer",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique UUID of the order" },
+        "customer_id": { "type": "string", "description": "Reference to the customer ID" },
+        "amount": { "type": "number", "description": "Order amount in INR" },
+        "product_category": { "type": "string", "description": "electronics, fashion, beauty, food, fitness" },
+        "product_name": { "type": "string", "description": "Specific product name" },
+        "created_at": { "type": "string", "format": "date-time", "description": "Order placement timestamp" }
+      },
+      "required": ["id", "customer_id", "amount", "product_category"]
+    },
+    "campaigns": {
+      "title": "Campaign",
+      "description": "Represents a marketing campaign",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique UUID of the campaign" },
+        "name": { "type": "string", "description": "Campaign name" },
+        "goal": { "type": "string", "description": "Campaign business goal" },
+        "segment_rule_json": { "type": "object", "description": "Dynamic filtering rules" },
+        "segment_sql": { "type": "string", "description": "Postgres-compatible segment SQL WHERE clause" },
+        "channel": { "type": "string", "description": "whatsapp, sms, or email" },
+        "message_template": { "type": "string", "description": "Personalized draft with {{name}}" },
+        "status": { "type": "string", "description": "draft, sending, completed" },
+        "audience_size": { "type": "integer", "description": "Number of targeted customers" },
+        "created_by_prompt": { "type": "string", "description": "Original user command prompt" },
+        "created_at": { "type": "string", "format": "date-time", "description": "Campaign creation timestamp" }
+      },
+      "required": ["id", "name", "channel", "status"]
+    },
+    "communications": {
+      "title": "Communication",
+      "description": "An individualized message dispatch item",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique communication dispatch ID" },
+        "campaign_id": { "type": "string", "description": "Reference to parent campaign" },
+        "customer_id": { "type": "string", "description": "Reference to target customer" },
+        "message": { "type": "string", "description": "Fully personalized text body" },
+        "channel": { "type": "string", "description": "whatsapp, sms, or email" },
+        "status": { "type": "string", "description": "queued, sent, delivered, failed, opened, clicked" },
+        "sent_at": { "type": "string", "format": "date-time" },
+        "delivered_at": { "type": "string", "format": "date-time" },
+        "opened_at": { "type": "string", "format": "date-time" },
+        "clicked_at": { "type": "string", "format": "date-time" },
+        "failed_at": { "type": "string", "format": "date-time" },
+        "created_at": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "campaign_id", "customer_id", "message", "channel", "status"]
+    },
+    "campaign_stats": {
+      "title": "CampaignStats",
+      "description": "Aggregated tracking numbers for a campaign",
+      "type": "object",
+      "properties": {
+        "campaign_id": { "type": "string", "description": "Campaign document reference ID" },
+        "total_queued": { "type": "integer" },
+        "total_sent": { "type": "integer" },
+        "delivered": { "type": "integer" },
+        "failed": { "type": "integer" },
+        "opened": { "type": "integer" },
+        "clicked": { "type": "integer" },
+        "last_updated": { "type": "string", "format": "date-time" }
+      },
+      "required": ["campaign_id"]
+    },
+    "chat_messages": {
+      "title": "ChatMessage",
+      "description": "A single thread element in the chat feed",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique history element ID" },
+        "role": { "type": "string", "description": "user or assistant" },
+        "content": { "type": "string", "description": "Primary verbal message content" },
+        "metadata": { "type": "object", "description": "Optional details about campaign or segment preview" },
+        "created_at": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "role", "content"]
+    }
+  },
+  "firestore": {
+    "/customers/{customerId}": {
+      "schema": "customers",
+      "description": "Access customer profile properties"
+    },
+    "/orders/{orderId}": {
+      "schema": "orders",
+      "description": "Retrieve customer purchase history documents"
+    },
+    "/campaigns/{campaignId}": {
+      "schema": "campaigns",
+      "description": "Read or modify campaign header configurations"
+    },
+    "/communications/{communicationId}": {
+      "schema": "communications",
+      "description": "Track individual dispatch messages and delivery progress"
+    },
+    "/campaign_stats/{campaignId}": {
+      "schema": "campaign_stats",
+      "description": "Real-time summary counts for the specified campaign ID"
+    },
+    "/chat_messages/{messageId}": {
+      "schema": "chat_messages",
+      "description": "Persisted conversational messages"
+    }
+  }
+}

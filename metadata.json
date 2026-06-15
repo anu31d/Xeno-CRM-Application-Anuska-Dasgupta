@@ -1,0 +1,6 @@
+{
+  "name": "Xeno Mini",
+  "description": "A chat-first AI-native CRM for consumer brands.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

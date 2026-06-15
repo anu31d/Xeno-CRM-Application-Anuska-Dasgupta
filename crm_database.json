@@ -1,0 +1,3273 @@
+{
+  "customers": {
+    "cust-loyal-1": {
+      "id": "cust-loyal-1",
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@example.com",
+      "phone": "+919876510000",
+      "city": "Mumbai",
+      "total_orders": 5,
+      "total_spent": 16000,
+      "last_purchase_date": "2026-06-11",
+      "tags": [
+        "loyal"
+      ],
+      "created_at": "2025-06-14T10:28:59.067Z"
+    },
+    "cust-loyal-2": {
+      "id": "cust-loyal-2",
+      "name": "Aditi Patel",
+      "email": "aditi.patel@example.com",
+      "phone": "+919876510001",
+      "city": "Delhi",
+      "total_orders": 6,
+      "total_spent": 17100,
+      "last_purchase_date": "2026-06-10",
+      "tags": [
+        "loyal"
+      ],
+      "created_at": "2025-06-14T10:28:59.067Z"
+    },
+    "cust-loyal-3": {
+      "id": "cust-loyal-3",
+      "name": "Rohan Verma",
+      "email": "rohan.verma@example.com",
+      "phone": "+919876510002",
+      "city": "Bangalore",
+      "total_orders": 7,
+      "total_spent": 18200,
+      "last_purchase_date": "2026-06-09",
+      "tags": [
+        "loyal"
+      ],
+      "created_at": "2025-06-14T10:28:59.067Z"
+    },
+    "cust-loyal-4": {
+      "id": "cust-loyal-4",
+      "name": "Ananya Iyer",
+      "email": "ananya.iyer@example.com",
+      "phone": "+919876510003",
+      "city": "Chennai",
+      "total_orders": 5,
+      "total_spent": 19300,
+      "last_purchase_date": "2026-06-08",
+      "tags": [
+        "loyal"
+      ],
+      "created_at": "2025-06-14T10:28:59.067Z"
+    },
+    "cust-loyal-5": {
+      "id": "cust-loyal-5",
+      "name": "Karan Malhotra",
+      "email": "karan.malhotra@example.com",
+      "phone": "+919876510004",
+      "city": "Hyderabad",
+      "total_orders": 6,
+      "total_spent": 20400,
+      "last_purchase_date": "2026-06-07",
+      "tags": [
+        "loyal"
+      ],
+      "created_at": "2025-06-14T10:28:59.068Z"
+    },
+    "cust-loyal-6": {
+      "id": "cust-loyal-6",
+      "name": "Priya Sengupta",
+      "email": "priya.sengupta@example.com",
+      "phone": "+919876510005",
+      "city": "Pune",
+      "total_orders": 7,
+      "total_spent": 21500,
+      "last_purchase_date": "2026-06-06",
+      "tags": [
+        "loyal"
+      ],
+      "created_at": "2025-06-14T10:28:59.068Z"
+    },
+    "cust-loyal-7": {
+      "id": "cust-loyal-7",
+      "name": "Kabir Joshi",
+      "email": "kabir.joshi@example.com",
+      "phone": "+919876510006",
+      "city": "Mumbai",
+      "total_orders": 5,
+      "total_spent": 22600,
+      "last_purchase_date": "2026-06-05",
+      "tags": [
+        "loyal"
+      ],
+      "created_at": "2025-06-14T10:28:59.068Z"
+    },
+    "cust-loyal-8": {
+      "id": "cust-loyal-8",
+      "name": "Meera Nair",
+      "email": "meera.nair@example.com",
+      "phone": "+919876510007",
+      "city": "Delhi",
+      "total_orders": 6,
+      "total_spent": 23700,
+      "last_purchase_date": "2026-06-04",
+      "tags": [
+        "loyal"
+      ],
+      "created_at": "2025-06-14T10:28:59.068Z"
+    },
+    "cust-loyal-9": {
+      "id": "cust-loyal-9",
+      "name": "Amit Saxena",
+      "email": "amit.saxena@example.com",
+      "phone": "+919876510008",
+      "city": "Bangalore",
+      "total_orders": 7,
+      "total_spent": 24800,
+      "last_purchase_date": "2026-06-03",
+      "tags": [
+        "loyal"
+      ],
+      "created_at": "2025-06-14T10:28:59.068Z"
+    },
+    "cust-loyal-10": {
+      "id": "cust-loyal-10",
+      "name": "Riya Kapoor",
+      "email": "riya.kapoor@example.com",
+      "phone": "+919876510009",
+      "city": "Chennai",
+      "total_orders": 5,
+      "total_spent": 25900,
+      "last_purchase_date": "2026-06-02",
+      "tags": [
+        "loyal"
+      ],
+      "created_at": "2025-06-14T10:28:59.068Z"
+    },
+    "cust-lapsing-1": {
+      "id": "cust-lapsing-1",
+      "name": "Vikram Chawla",
+      "email": "vikram.chawla@example.com",
+      "phone": "+919830010000",
+      "city": "Delhi",
+      "total_orders": 3,
+      "total_spent": 4000,
+      "last_purchase_date": "2026-04-28",
+      "tags": [
+        "lapsing"
+      ],
+      "created_at": "2025-11-26T10:28:59.068Z"
+    },
+    "cust-lapsing-2": {
+      "id": "cust-lapsing-2",
+      "name": "Sneha Rao",
+      "email": "sneha.rao@example.com",
+      "phone": "+919830010001",
+      "city": "Bangalore",
+      "total_orders": 4,
+      "total_spent": 4500,
+      "last_purchase_date": "2026-04-25",
+      "tags": [
+        "lapsing"
+      ],
+      "created_at": "2025-11-26T10:28:59.068Z"
+    },
+    "cust-lapsing-3": {
+      "id": "cust-lapsing-3",
+      "name": "Divya Menon",
+      "email": "divya.menon@example.com",
+      "phone": "+919830010002",
+      "city": "Chennai",
+      "total_orders": 5,
+      "total_spent": 5000,
+      "last_purchase_date": "2026-04-22",
+      "tags": [
+        "lapsing"
+      ],
+      "created_at": "2025-11-26T10:28:59.068Z"
+    },
+    "cust-lapsing-4": {
+      "id": "cust-lapsing-4",
+      "name": "Gaurav Sen",
+      "email": "gaurav.sen@example.com",
+      "phone": "+919830010003",
+      "city": "Hyderabad",
+      "total_orders": 3,
+      "total_spent": 5500,
+      "last_purchase_date": "2026-04-19",
+      "tags": [
+        "lapsing"
+      ],
+      "created_at": "2025-11-26T10:28:59.068Z"
+    },
+    "cust-lapsing-5": {
+      "id": "cust-lapsing-5",
+      "name": "Tanya Dutta",
+      "email": "tanya.dutta@example.com",
+      "phone": "+919830010004",
+      "city": "Pune",
+      "total_orders": 4,
+      "total_spent": 6000,
+      "last_purchase_date": "2026-04-16",
+      "tags": [
+        "lapsing"
+      ],
+      "created_at": "2025-11-26T10:28:59.068Z"
+    },
+    "cust-lapsing-6": {
+      "id": "cust-lapsing-6",
+      "name": "Vivek Bhat",
+      "email": "vivek.bhat@example.com",
+      "phone": "+919830010005",
+      "city": "Mumbai",
+      "total_orders": 5,
+      "total_spent": 6500,
+      "last_purchase_date": "2026-04-13",
+      "tags": [
+        "lapsing"
+      ],
+      "created_at": "2025-11-26T10:28:59.068Z"
+    },
+    "cust-lapsing-7": {
+      "id": "cust-lapsing-7",
+      "name": "Ishita Gupta",
+      "email": "ishita.gupta@example.com",
+      "phone": "+919830010006",
+      "city": "Delhi",
+      "total_orders": 3,
+      "total_spent": 7000,
+      "last_purchase_date": "2026-04-10",
+      "tags": [
+        "lapsing"
+      ],
+      "created_at": "2025-11-26T10:28:59.068Z"
+    },
+    "cust-lapsing-8": {
+      "id": "cust-lapsing-8",
+      "name": "Pranav Shah",
+      "email": "pranav.shah@example.com",
+      "phone": "+919830010007",
+      "city": "Bangalore",
+      "total_orders": 4,
+      "total_spent": 7500,
+      "last_purchase_date": "2026-04-07",
+      "tags": [
+        "lapsing"
+      ],
+      "created_at": "2025-11-26T10:28:59.068Z"
+    },
+    "cust-lapsing-9": {
+      "id": "cust-lapsing-9",
+      "name": "Aarti Pandey",
+      "email": "aarti.pandey@example.com",
+      "phone": "+919830010008",
+      "city": "Chennai",
+      "total_orders": 5,
+      "total_spent": 8000,
+      "last_purchase_date": "2026-04-04",
+      "tags": [
+        "lapsing"
+      ],
+      "created_at": "2025-11-26T10:28:59.068Z"
+    },
+    "cust-lapsing-10": {
+      "id": "cust-lapsing-10",
+      "name": "Sanjay Deshmukh",
+      "email": "sanjay.deshmukh@example.com",
+      "phone": "+919830010009",
+      "city": "Hyderabad",
+      "total_orders": 3,
+      "total_spent": 8500,
+      "last_purchase_date": "2026-04-01",
+      "tags": [
+        "lapsing"
+      ],
+      "created_at": "2025-11-26T10:28:59.068Z"
+    },
+    "cust-lapsing-11": {
+      "id": "cust-lapsing-11",
+      "name": "Kirti Sinha",
+      "email": "kirti.sinha@example.com",
+      "phone": "+919830010010",
+      "city": "Pune",
+      "total_orders": 4,
+      "total_spent": 9000,
+      "last_purchase_date": "2026-03-29",
+      "tags": [
+        "lapsing"
+      ],
+      "created_at": "2025-11-26T10:28:59.068Z"
+    },
+    "cust-lapsing-12": {
+      "id": "cust-lapsing-12",
+      "name": "Rahul Ghosh",
+      "email": "rahul.ghosh@example.com",
+      "phone": "+919830010011",
+      "city": "Mumbai",
+      "total_orders": 5,
+      "total_spent": 9500,
+      "last_purchase_date": "2026-03-26",
+      "tags": [
+        "lapsing"
+      ],
+      "created_at": "2025-11-26T10:28:59.069Z"
+    },
+    "cust-dormant-1": {
+      "id": "cust-dormant-1",
+      "name": "Vijay Mallya",
+      "email": "vijay.mallya@example.com",
+      "phone": "+919912310000",
+      "city": "Bangalore",
+      "total_orders": 4,
+      "total_spent": 21000,
+      "last_purchase_date": "2026-03-11",
+      "tags": [
+        "dormant",
+        "high-value"
+      ],
+      "created_at": "2025-08-18T10:28:59.069Z"
+    },
+    "cust-dormant-2": {
+      "id": "cust-dormant-2",
+      "name": "Shalini Oberoi",
+      "email": "shalini.oberoi@example.com",
+      "phone": "+919912310001",
+      "city": "Chennai",
+      "total_orders": 5,
+      "total_spent": 23000,
+      "last_purchase_date": "2026-03-01",
+      "tags": [
+        "dormant",
+        "high-value"
+      ],
+      "created_at": "2025-08-18T10:28:59.069Z"
+    },
+    "cust-dormant-3": {
+      "id": "cust-dormant-3",
+      "name": "Aditya Birla",
+      "email": "aditya.birla@example.com",
+      "phone": "+919912310002",
+      "city": "Hyderabad",
+      "total_orders": 6,
+      "total_spent": 25000,
+      "last_purchase_date": "2026-02-19",
+      "tags": [
+        "dormant",
+        "high-value"
+      ],
+      "created_at": "2025-08-18T10:28:59.069Z"
+    },
+    "cust-dormant-4": {
+      "id": "cust-dormant-4",
+      "name": "Kiran Mazumdar",
+      "email": "kiran.mazumdar@example.com",
+      "phone": "+919912310003",
+      "city": "Pune",
+      "total_orders": 4,
+      "total_spent": 27000,
+      "last_purchase_date": "2026-02-09",
+      "tags": [
+        "dormant",
+        "high-value"
+      ],
+      "created_at": "2025-08-18T10:28:59.069Z"
+    },
+    "cust-dormant-5": {
+      "id": "cust-dormant-5",
+      "name": "Ratan Tata",
+      "email": "ratan.tata@example.com",
+      "phone": "+919912310004",
+      "city": "Mumbai",
+      "total_orders": 5,
+      "total_spent": 29000,
+      "last_purchase_date": "2026-01-30",
+      "tags": [
+        "dormant",
+        "high-value"
+      ],
+      "created_at": "2025-08-18T10:28:59.069Z"
+    },
+    "cust-dormant-6": {
+      "id": "cust-dormant-6",
+      "name": "Nita Ambani",
+      "email": "nita.ambani@example.com",
+      "phone": "+919912310005",
+      "city": "Delhi",
+      "total_orders": 6,
+      "total_spent": 31000,
+      "last_purchase_date": "2026-01-20",
+      "tags": [
+        "dormant",
+        "high-value"
+      ],
+      "created_at": "2025-08-18T10:28:59.069Z"
+    },
+    "cust-dormant-7": {
+      "id": "cust-dormant-7",
+      "name": "Azim Premji",
+      "email": "azim.premji@example.com",
+      "phone": "+919912310006",
+      "city": "Bangalore",
+      "total_orders": 4,
+      "total_spent": 33000,
+      "last_purchase_date": "2026-01-10",
+      "tags": [
+        "dormant",
+        "high-value"
+      ],
+      "created_at": "2025-08-18T10:28:59.069Z"
+    },
+    "cust-dormant-8": {
+      "id": "cust-dormant-8",
+      "name": "Anand Mahindra",
+      "email": "anand.mahindra@example.com",
+      "phone": "+919912310007",
+      "city": "Chennai",
+      "total_orders": 5,
+      "total_spent": 35000,
+      "last_purchase_date": "2025-12-31",
+      "tags": [
+        "dormant",
+        "high-value"
+      ],
+      "created_at": "2025-08-18T10:28:59.069Z"
+    },
+    "cust-new-1": {
+      "id": "cust-new-1",
+      "name": "Alok Mishra",
+      "email": "alok.mishra@example.com",
+      "phone": "+919650010000",
+      "city": "Chennai",
+      "total_orders": 1,
+      "total_spent": 800,
+      "last_purchase_date": "2026-06-10",
+      "tags": [
+        "new"
+      ],
+      "created_at": "2026-06-10"
+    },
+    "cust-new-2": {
+      "id": "cust-new-2",
+      "name": "Juhi Chawla",
+      "email": "juhi.chawla@example.com",
+      "phone": "+919650010001",
+      "city": "Hyderabad",
+      "total_orders": 1,
+      "total_spent": 1150,
+      "last_purchase_date": "2026-06-08",
+      "tags": [
+        "new"
+      ],
+      "created_at": "2026-06-08"
+    },
+    "cust-new-3": {
+      "id": "cust-new-3",
+      "name": "Varun Dhawan",
+      "email": "varun.dhawan@example.com",
+      "phone": "+919650010002",
+      "city": "Pune",
+      "total_orders": 1,
+      "total_spent": 1500,
+      "last_purchase_date": "2026-06-06",
+      "tags": [
+        "new"
+      ],
+      "created_at": "2026-06-06"
+    },
+    "cust-new-4": {
+      "id": "cust-new-4",
+      "name": "Siddharth Roy",
+      "email": "siddharth.roy@example.com",
+      "phone": "+919650010003",
+      "city": "Mumbai",
+      "total_orders": 1,
+      "total_spent": 1850,
+      "last_purchase_date": "2026-06-04",
+      "tags": [
+        "new"
+      ],
+      "created_at": "2026-06-04"
+    },
+    "cust-new-5": {
+      "id": "cust-new-5",
+      "name": "Kiara Advani",
+      "email": "kiara.advani@example.com",
+      "phone": "+919650010004",
+      "city": "Delhi",
+      "total_orders": 1,
+      "total_spent": 2200,
+      "last_purchase_date": "2026-06-02",
+      "tags": [
+        "new"
+      ],
+      "created_at": "2026-06-02"
+    },
+    "cust-new-6": {
+      "id": "cust-new-6",
+      "name": "Kartik Aaryan",
+      "email": "kartik.aaryan@example.com",
+      "phone": "+919650010005",
+      "city": "Bangalore",
+      "total_orders": 1,
+      "total_spent": 2550,
+      "last_purchase_date": "2026-05-31",
+      "tags": [
+        "new"
+      ],
+      "created_at": "2026-05-31"
+    },
+    "cust-new-7": {
+      "id": "cust-new-7",
+      "name": "Sara Ali",
+      "email": "sara.ali@example.com",
+      "phone": "+919650010006",
+      "city": "Chennai",
+      "total_orders": 1,
+      "total_spent": 2900,
+      "last_purchase_date": "2026-05-29",
+      "tags": [
+        "new"
+      ],
+      "created_at": "2026-05-29"
+    },
+    "cust-new-8": {
+      "id": "cust-new-8",
+      "name": "Janhvi Kapoor",
+      "email": "janhvi.kapoor@example.com",
+      "phone": "+919650010007",
+      "city": "Hyderabad",
+      "total_orders": 1,
+      "total_spent": 3250,
+      "last_purchase_date": "2026-05-27",
+      "tags": [
+        "new"
+      ],
+      "created_at": "2026-05-27"
+    },
+    "cust-new-9": {
+      "id": "cust-new-9",
+      "name": "Ishaan Khattar",
+      "email": "ishaan.khattar@example.com",
+      "phone": "+919650010008",
+      "city": "Pune",
+      "total_orders": 1,
+      "total_spent": 3600,
+      "last_purchase_date": "2026-05-25",
+      "tags": [
+        "new"
+      ],
+      "created_at": "2026-05-25"
+    },
+    "cust-new-10": {
+      "id": "cust-new-10",
+      "name": "Ananya Panday",
+      "email": "ananya.panday@example.com",
+      "phone": "+919650010009",
+      "city": "Mumbai",
+      "total_orders": 1,
+      "total_spent": 3950,
+      "last_purchase_date": "2026-05-23",
+      "tags": [
+        "new"
+      ],
+      "created_at": "2026-05-23"
+    },
+    "cust-city-1": {
+      "id": "cust-city-1",
+      "name": "Rajesh Mumbai",
+      "email": "rajesh.mumbai@example.com",
+      "phone": "+919500020000",
+      "city": "Mumbai",
+      "total_orders": 2,
+      "total_spent": 2500,
+      "last_purchase_date": "2026-05-27",
+      "tags": [
+        "mumbai"
+      ],
+      "created_at": "2026-02-14T10:28:59.069Z"
+    },
+    "cust-city-2": {
+      "id": "cust-city-2",
+      "name": "Leela Mumbai",
+      "email": "leela.mumbai@example.com",
+      "phone": "+919500020001",
+      "city": "Mumbai",
+      "total_orders": 2,
+      "total_spent": 3100,
+      "last_purchase_date": "2026-05-23",
+      "tags": [
+        "mumbai"
+      ],
+      "created_at": "2026-02-14T10:28:59.069Z"
+    },
+    "cust-city-3": {
+      "id": "cust-city-3",
+      "name": "Viktor Mumbai",
+      "email": "viktor.mumbai@example.com",
+      "phone": "+919500020002",
+      "city": "Mumbai",
+      "total_orders": 2,
+      "total_spent": 3700,
+      "last_purchase_date": "2026-05-19",
+      "tags": [
+        "mumbai"
+      ],
+      "created_at": "2026-02-14T10:28:59.069Z"
+    },
+    "cust-city-4": {
+      "id": "cust-city-4",
+      "name": "Preeti Mumbai",
+      "email": "preeti.mumbai@example.com",
+      "phone": "+919500020003",
+      "city": "Mumbai",
+      "total_orders": 2,
+      "total_spent": 4300,
+      "last_purchase_date": "2026-05-15",
+      "tags": [
+        "mumbai"
+      ],
+      "created_at": "2026-02-14T10:28:59.069Z"
+    },
+    "cust-city-5": {
+      "id": "cust-city-5",
+      "name": "Rohit Mumbai",
+      "email": "rohit.mumbai@example.com",
+      "phone": "+919500020004",
+      "city": "Mumbai",
+      "total_orders": 2,
+      "total_spent": 4900,
+      "last_purchase_date": "2026-05-11",
+      "tags": [
+        "mumbai"
+      ],
+      "created_at": "2026-02-14T10:28:59.069Z"
+    },
+    "cust-city-6": {
+      "id": "cust-city-6",
+      "name": "Devika Delhi",
+      "email": "devika.delhi@example.com",
+      "phone": "+919500020005",
+      "city": "Delhi",
+      "total_orders": 2,
+      "total_spent": 5500,
+      "last_purchase_date": "2026-05-07",
+      "tags": [
+        "delhi"
+      ],
+      "created_at": "2026-02-14T10:28:59.069Z"
+    },
+    "cust-city-7": {
+      "id": "cust-city-7",
+      "name": "Nikhil Delhi",
+      "email": "nikhil.delhi@example.com",
+      "phone": "+919500020006",
+      "city": "Delhi",
+      "total_orders": 2,
+      "total_spent": 6100,
+      "last_purchase_date": "2026-05-03",
+      "tags": [
+        "delhi"
+      ],
+      "created_at": "2026-02-14T10:28:59.069Z"
+    },
+    "cust-city-8": {
+      "id": "cust-city-8",
+      "name": "Arjun Delhi",
+      "email": "arjun.delhi@example.com",
+      "phone": "+919500020007",
+      "city": "Delhi",
+      "total_orders": 2,
+      "total_spent": 6700,
+      "last_purchase_date": "2026-04-29",
+      "tags": [
+        "delhi"
+      ],
+      "created_at": "2026-02-14T10:28:59.069Z"
+    },
+    "cust-city-9": {
+      "id": "cust-city-9",
+      "name": "Komal Delhi",
+      "email": "komal.delhi@example.com",
+      "phone": "+919500020008",
+      "city": "Delhi",
+      "total_orders": 2,
+      "total_spent": 7300,
+      "last_purchase_date": "2026-04-25",
+      "tags": [
+        "delhi"
+      ],
+      "created_at": "2026-02-14T10:28:59.069Z"
+    },
+    "cust-city-10": {
+      "id": "cust-city-10",
+      "name": "Suresh Delhi",
+      "email": "suresh.delhi@example.com",
+      "phone": "+919500020009",
+      "city": "Delhi",
+      "total_orders": 2,
+      "total_spent": 7900,
+      "last_purchase_date": "2026-04-21",
+      "tags": [
+        "delhi"
+      ],
+      "created_at": "2026-02-14T10:28:59.069Z"
+    },
+    "cust-cat-1": {
+      "id": "cust-cat-1",
+      "name": "Bipasha Fitness",
+      "email": "bipasha.fitness@example.com",
+      "phone": "+919700030000",
+      "city": "Hyderabad",
+      "total_orders": 3,
+      "total_spent": 3000,
+      "last_purchase_date": "2026-06-04",
+      "tags": [
+        "fitness"
+      ],
+      "created_at": "2026-01-15T10:28:59.069Z"
+    },
+    "cust-cat-2": {
+      "id": "cust-cat-2",
+      "name": "John Fitness",
+      "email": "john.fitness@example.com",
+      "phone": "+919700030001",
+      "city": "Pune",
+      "total_orders": 4,
+      "total_spent": 3700,
+      "last_purchase_date": "2026-05-30",
+      "tags": [
+        "fitness"
+      ],
+      "created_at": "2026-01-15T10:28:59.069Z"
+    },
+    "cust-cat-3": {
+      "id": "cust-cat-3",
+      "name": "Milind Fitness",
+      "email": "milind.fitness@example.com",
+      "phone": "+919700030002",
+      "city": "Mumbai",
+      "total_orders": 3,
+      "total_spent": 4400,
+      "last_purchase_date": "2026-05-25",
+      "tags": [
+        "fitness"
+      ],
+      "created_at": "2026-01-15T10:28:59.069Z"
+    },
+    "cust-cat-4": {
+      "id": "cust-cat-4",
+      "name": "Mandira Fitness",
+      "email": "mandira.fitness@example.com",
+      "phone": "+919700030003",
+      "city": "Delhi",
+      "total_orders": 4,
+      "total_spent": 5100,
+      "last_purchase_date": "2026-05-20",
+      "tags": [
+        "fitness"
+      ],
+      "created_at": "2026-01-15T10:28:59.069Z"
+    },
+    "cust-cat-5": {
+      "id": "cust-cat-5",
+      "name": "Shilpa Fitness",
+      "email": "shilpa.fitness@example.com",
+      "phone": "+919700030004",
+      "city": "Bangalore",
+      "total_orders": 3,
+      "total_spent": 5800,
+      "last_purchase_date": "2026-05-15",
+      "tags": [
+        "fitness"
+      ],
+      "created_at": "2026-01-15T10:28:59.069Z"
+    },
+    "cust-cat-6": {
+      "id": "cust-cat-6",
+      "name": "Katrina Beauty",
+      "email": "katrina.beauty@example.com",
+      "phone": "+919700030005",
+      "city": "Chennai",
+      "total_orders": 4,
+      "total_spent": 6500,
+      "last_purchase_date": "2026-05-10",
+      "tags": [
+        "beauty"
+      ],
+      "created_at": "2026-01-15T10:28:59.069Z"
+    },
+    "cust-cat-7": {
+      "id": "cust-cat-7",
+      "name": "Kareena Beauty",
+      "email": "kareena.beauty@example.com",
+      "phone": "+919700030006",
+      "city": "Hyderabad",
+      "total_orders": 3,
+      "total_spent": 7200,
+      "last_purchase_date": "2026-05-05",
+      "tags": [
+        "beauty"
+      ],
+      "created_at": "2026-01-15T10:28:59.069Z"
+    },
+    "cust-cat-8": {
+      "id": "cust-cat-8",
+      "name": "Deepika Beauty",
+      "email": "deepika.beauty@example.com",
+      "phone": "+919700030007",
+      "city": "Pune",
+      "total_orders": 4,
+      "total_spent": 7900,
+      "last_purchase_date": "2026-04-30",
+      "tags": [
+        "beauty"
+      ],
+      "created_at": "2026-01-15T10:28:59.069Z"
+    },
+    "cust-cat-9": {
+      "id": "cust-cat-9",
+      "name": "Alia Beauty",
+      "email": "alia.beauty@example.com",
+      "phone": "+919700030008",
+      "city": "Mumbai",
+      "total_orders": 3,
+      "total_spent": 8600,
+      "last_purchase_date": "2026-04-25",
+      "tags": [
+        "beauty"
+      ],
+      "created_at": "2026-01-15T10:28:59.069Z"
+    },
+    "cust-cat-10": {
+      "id": "cust-cat-10",
+      "name": "Priyanka Beauty",
+      "email": "priyanka.beauty@example.com",
+      "phone": "+919700030009",
+      "city": "Delhi",
+      "total_orders": 4,
+      "total_spent": 9300,
+      "last_purchase_date": "2026-04-20",
+      "tags": [
+        "beauty"
+      ],
+      "created_at": "2026-01-15T10:28:59.069Z"
+    }
+  },
+  "orders": {
+    "ord-loyal-1-1": {
+      "id": "ord-loyal-1-1",
+      "customer_id": "cust-loyal-1",
+      "amount": 3700,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-06-11"
+    },
+    "ord-loyal-1-2": {
+      "id": "ord-loyal-1-2",
+      "customer_id": "cust-loyal-1",
+      "amount": 2700,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-06-01"
+    },
+    "ord-loyal-1-3": {
+      "id": "ord-loyal-1-3",
+      "customer_id": "cust-loyal-1",
+      "amount": 3700,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-05-22"
+    },
+    "ord-loyal-1-4": {
+      "id": "ord-loyal-1-4",
+      "customer_id": "cust-loyal-1",
+      "amount": 2700,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-05-12"
+    },
+    "ord-loyal-1-5": {
+      "id": "ord-loyal-1-5",
+      "customer_id": "cust-loyal-1",
+      "amount": 3200,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-05-02"
+    },
+    "ord-loyal-2-1": {
+      "id": "ord-loyal-2-1",
+      "customer_id": "cust-loyal-2",
+      "amount": 3350,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-06-10"
+    },
+    "ord-loyal-2-2": {
+      "id": "ord-loyal-2-2",
+      "customer_id": "cust-loyal-2",
+      "amount": 2350,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-05-31"
+    },
+    "ord-loyal-2-3": {
+      "id": "ord-loyal-2-3",
+      "customer_id": "cust-loyal-2",
+      "amount": 3350,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-05-21"
+    },
+    "ord-loyal-2-4": {
+      "id": "ord-loyal-2-4",
+      "customer_id": "cust-loyal-2",
+      "amount": 2350,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-05-11"
+    },
+    "ord-loyal-2-5": {
+      "id": "ord-loyal-2-5",
+      "customer_id": "cust-loyal-2",
+      "amount": 3350,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-05-01"
+    },
+    "ord-loyal-2-6": {
+      "id": "ord-loyal-2-6",
+      "customer_id": "cust-loyal-2",
+      "amount": 2350,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-04-21"
+    },
+    "ord-loyal-3-1": {
+      "id": "ord-loyal-3-1",
+      "customer_id": "cust-loyal-3",
+      "amount": 3100,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-06-09"
+    },
+    "ord-loyal-3-2": {
+      "id": "ord-loyal-3-2",
+      "customer_id": "cust-loyal-3",
+      "amount": 2100,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-05-30"
+    },
+    "ord-loyal-3-3": {
+      "id": "ord-loyal-3-3",
+      "customer_id": "cust-loyal-3",
+      "amount": 3100,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-05-20"
+    },
+    "ord-loyal-3-4": {
+      "id": "ord-loyal-3-4",
+      "customer_id": "cust-loyal-3",
+      "amount": 2100,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-05-10"
+    },
+    "ord-loyal-3-5": {
+      "id": "ord-loyal-3-5",
+      "customer_id": "cust-loyal-3",
+      "amount": 3100,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-04-30"
+    },
+    "ord-loyal-3-6": {
+      "id": "ord-loyal-3-6",
+      "customer_id": "cust-loyal-3",
+      "amount": 2100,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-04-20"
+    },
+    "ord-loyal-3-7": {
+      "id": "ord-loyal-3-7",
+      "customer_id": "cust-loyal-3",
+      "amount": 2600,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-04-10"
+    },
+    "ord-loyal-4-1": {
+      "id": "ord-loyal-4-1",
+      "customer_id": "cust-loyal-4",
+      "amount": 4360,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-06-08"
+    },
+    "ord-loyal-4-2": {
+      "id": "ord-loyal-4-2",
+      "customer_id": "cust-loyal-4",
+      "amount": 3360,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-05-29"
+    },
+    "ord-loyal-4-3": {
+      "id": "ord-loyal-4-3",
+      "customer_id": "cust-loyal-4",
+      "amount": 4360,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-05-19"
+    },
+    "ord-loyal-4-4": {
+      "id": "ord-loyal-4-4",
+      "customer_id": "cust-loyal-4",
+      "amount": 3360,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-05-09"
+    },
+    "ord-loyal-4-5": {
+      "id": "ord-loyal-4-5",
+      "customer_id": "cust-loyal-4",
+      "amount": 3860,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-04-29"
+    },
+    "ord-loyal-5-1": {
+      "id": "ord-loyal-5-1",
+      "customer_id": "cust-loyal-5",
+      "amount": 3900,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-06-07"
+    },
+    "ord-loyal-5-2": {
+      "id": "ord-loyal-5-2",
+      "customer_id": "cust-loyal-5",
+      "amount": 2900,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-05-28"
+    },
+    "ord-loyal-5-3": {
+      "id": "ord-loyal-5-3",
+      "customer_id": "cust-loyal-5",
+      "amount": 3900,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-05-18"
+    },
+    "ord-loyal-5-4": {
+      "id": "ord-loyal-5-4",
+      "customer_id": "cust-loyal-5",
+      "amount": 2900,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-05-08"
+    },
+    "ord-loyal-5-5": {
+      "id": "ord-loyal-5-5",
+      "customer_id": "cust-loyal-5",
+      "amount": 3900,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-04-28"
+    },
+    "ord-loyal-5-6": {
+      "id": "ord-loyal-5-6",
+      "customer_id": "cust-loyal-5",
+      "amount": 2900,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-04-18"
+    },
+    "ord-loyal-6-1": {
+      "id": "ord-loyal-6-1",
+      "customer_id": "cust-loyal-6",
+      "amount": 3571,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-06-06"
+    },
+    "ord-loyal-6-2": {
+      "id": "ord-loyal-6-2",
+      "customer_id": "cust-loyal-6",
+      "amount": 2571,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-05-27"
+    },
+    "ord-loyal-6-3": {
+      "id": "ord-loyal-6-3",
+      "customer_id": "cust-loyal-6",
+      "amount": 3571,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-05-17"
+    },
+    "ord-loyal-6-4": {
+      "id": "ord-loyal-6-4",
+      "customer_id": "cust-loyal-6",
+      "amount": 2571,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-05-07"
+    },
+    "ord-loyal-6-5": {
+      "id": "ord-loyal-6-5",
+      "customer_id": "cust-loyal-6",
+      "amount": 3571,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-04-27"
+    },
+    "ord-loyal-6-6": {
+      "id": "ord-loyal-6-6",
+      "customer_id": "cust-loyal-6",
+      "amount": 2571,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-04-17"
+    },
+    "ord-loyal-6-7": {
+      "id": "ord-loyal-6-7",
+      "customer_id": "cust-loyal-6",
+      "amount": 3074,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-04-07"
+    },
+    "ord-loyal-7-1": {
+      "id": "ord-loyal-7-1",
+      "customer_id": "cust-loyal-7",
+      "amount": 5020,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-06-05"
+    },
+    "ord-loyal-7-2": {
+      "id": "ord-loyal-7-2",
+      "customer_id": "cust-loyal-7",
+      "amount": 4020,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-05-26"
+    },
+    "ord-loyal-7-3": {
+      "id": "ord-loyal-7-3",
+      "customer_id": "cust-loyal-7",
+      "amount": 5020,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-05-16"
+    },
+    "ord-loyal-7-4": {
+      "id": "ord-loyal-7-4",
+      "customer_id": "cust-loyal-7",
+      "amount": 4020,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-05-06"
+    },
+    "ord-loyal-7-5": {
+      "id": "ord-loyal-7-5",
+      "customer_id": "cust-loyal-7",
+      "amount": 4520,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-04-26"
+    },
+    "ord-loyal-8-1": {
+      "id": "ord-loyal-8-1",
+      "customer_id": "cust-loyal-8",
+      "amount": 4450,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-06-04"
+    },
+    "ord-loyal-8-2": {
+      "id": "ord-loyal-8-2",
+      "customer_id": "cust-loyal-8",
+      "amount": 3450,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-05-25"
+    },
+    "ord-loyal-8-3": {
+      "id": "ord-loyal-8-3",
+      "customer_id": "cust-loyal-8",
+      "amount": 4450,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-05-15"
+    },
+    "ord-loyal-8-4": {
+      "id": "ord-loyal-8-4",
+      "customer_id": "cust-loyal-8",
+      "amount": 3450,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-05-05"
+    },
+    "ord-loyal-8-5": {
+      "id": "ord-loyal-8-5",
+      "customer_id": "cust-loyal-8",
+      "amount": 4450,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-04-25"
+    },
+    "ord-loyal-8-6": {
+      "id": "ord-loyal-8-6",
+      "customer_id": "cust-loyal-8",
+      "amount": 3450,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-04-15"
+    },
+    "ord-loyal-9-1": {
+      "id": "ord-loyal-9-1",
+      "customer_id": "cust-loyal-9",
+      "amount": 4043,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-06-03"
+    },
+    "ord-loyal-9-2": {
+      "id": "ord-loyal-9-2",
+      "customer_id": "cust-loyal-9",
+      "amount": 3043,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-05-24"
+    },
+    "ord-loyal-9-3": {
+      "id": "ord-loyal-9-3",
+      "customer_id": "cust-loyal-9",
+      "amount": 4043,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-05-14"
+    },
+    "ord-loyal-9-4": {
+      "id": "ord-loyal-9-4",
+      "customer_id": "cust-loyal-9",
+      "amount": 3043,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-05-04"
+    },
+    "ord-loyal-9-5": {
+      "id": "ord-loyal-9-5",
+      "customer_id": "cust-loyal-9",
+      "amount": 4043,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-04-24"
+    },
+    "ord-loyal-9-6": {
+      "id": "ord-loyal-9-6",
+      "customer_id": "cust-loyal-9",
+      "amount": 3043,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-04-14"
+    },
+    "ord-loyal-9-7": {
+      "id": "ord-loyal-9-7",
+      "customer_id": "cust-loyal-9",
+      "amount": 3542,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-04-04"
+    },
+    "ord-loyal-10-1": {
+      "id": "ord-loyal-10-1",
+      "customer_id": "cust-loyal-10",
+      "amount": 5680,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-06-02"
+    },
+    "ord-loyal-10-2": {
+      "id": "ord-loyal-10-2",
+      "customer_id": "cust-loyal-10",
+      "amount": 4680,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-05-23"
+    },
+    "ord-loyal-10-3": {
+      "id": "ord-loyal-10-3",
+      "customer_id": "cust-loyal-10",
+      "amount": 5680,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-05-13"
+    },
+    "ord-loyal-10-4": {
+      "id": "ord-loyal-10-4",
+      "customer_id": "cust-loyal-10",
+      "amount": 4680,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-05-03"
+    },
+    "ord-loyal-10-5": {
+      "id": "ord-loyal-10-5",
+      "customer_id": "cust-loyal-10",
+      "amount": 5180,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-04-23"
+    },
+    "ord-lapsing-1-1": {
+      "id": "ord-lapsing-1-1",
+      "customer_id": "cust-lapsing-1",
+      "amount": 1533,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-04-28"
+    },
+    "ord-lapsing-1-2": {
+      "id": "ord-lapsing-1-2",
+      "customer_id": "cust-lapsing-1",
+      "amount": 1133,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-04-13"
+    },
+    "ord-lapsing-1-3": {
+      "id": "ord-lapsing-1-3",
+      "customer_id": "cust-lapsing-1",
+      "amount": 1334,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-03-29"
+    },
+    "ord-lapsing-2-1": {
+      "id": "ord-lapsing-2-1",
+      "customer_id": "cust-lapsing-2",
+      "amount": 1325,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-04-25"
+    },
+    "ord-lapsing-2-2": {
+      "id": "ord-lapsing-2-2",
+      "customer_id": "cust-lapsing-2",
+      "amount": 925,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-04-10"
+    },
+    "ord-lapsing-2-3": {
+      "id": "ord-lapsing-2-3",
+      "customer_id": "cust-lapsing-2",
+      "amount": 1325,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-03-26"
+    },
+    "ord-lapsing-2-4": {
+      "id": "ord-lapsing-2-4",
+      "customer_id": "cust-lapsing-2",
+      "amount": 925,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-03-11"
+    },
+    "ord-lapsing-3-1": {
+      "id": "ord-lapsing-3-1",
+      "customer_id": "cust-lapsing-3",
+      "amount": 1200,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-04-22"
+    },
+    "ord-lapsing-3-2": {
+      "id": "ord-lapsing-3-2",
+      "customer_id": "cust-lapsing-3",
+      "amount": 800,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-04-07"
+    },
+    "ord-lapsing-3-3": {
+      "id": "ord-lapsing-3-3",
+      "customer_id": "cust-lapsing-3",
+      "amount": 1200,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-03-23"
+    },
+    "ord-lapsing-3-4": {
+      "id": "ord-lapsing-3-4",
+      "customer_id": "cust-lapsing-3",
+      "amount": 800,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-03-08"
+    },
+    "ord-lapsing-3-5": {
+      "id": "ord-lapsing-3-5",
+      "customer_id": "cust-lapsing-3",
+      "amount": 1000,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-02-21"
+    },
+    "ord-lapsing-4-1": {
+      "id": "ord-lapsing-4-1",
+      "customer_id": "cust-lapsing-4",
+      "amount": 2033,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-04-19"
+    },
+    "ord-lapsing-4-2": {
+      "id": "ord-lapsing-4-2",
+      "customer_id": "cust-lapsing-4",
+      "amount": 1633,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-04-04"
+    },
+    "ord-lapsing-4-3": {
+      "id": "ord-lapsing-4-3",
+      "customer_id": "cust-lapsing-4",
+      "amount": 1834,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-03-20"
+    },
+    "ord-lapsing-5-1": {
+      "id": "ord-lapsing-5-1",
+      "customer_id": "cust-lapsing-5",
+      "amount": 1700,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-04-16"
+    },
+    "ord-lapsing-5-2": {
+      "id": "ord-lapsing-5-2",
+      "customer_id": "cust-lapsing-5",
+      "amount": 1300,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-04-01"
+    },
+    "ord-lapsing-5-3": {
+      "id": "ord-lapsing-5-3",
+      "customer_id": "cust-lapsing-5",
+      "amount": 1700,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-03-17"
+    },
+    "ord-lapsing-5-4": {
+      "id": "ord-lapsing-5-4",
+      "customer_id": "cust-lapsing-5",
+      "amount": 1300,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-03-02"
+    },
+    "ord-lapsing-6-1": {
+      "id": "ord-lapsing-6-1",
+      "customer_id": "cust-lapsing-6",
+      "amount": 1500,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-04-13"
+    },
+    "ord-lapsing-6-2": {
+      "id": "ord-lapsing-6-2",
+      "customer_id": "cust-lapsing-6",
+      "amount": 1100,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-03-29"
+    },
+    "ord-lapsing-6-3": {
+      "id": "ord-lapsing-6-3",
+      "customer_id": "cust-lapsing-6",
+      "amount": 1500,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-03-14"
+    },
+    "ord-lapsing-6-4": {
+      "id": "ord-lapsing-6-4",
+      "customer_id": "cust-lapsing-6",
+      "amount": 1100,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-02-27"
+    },
+    "ord-lapsing-6-5": {
+      "id": "ord-lapsing-6-5",
+      "customer_id": "cust-lapsing-6",
+      "amount": 1300,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-02-12"
+    },
+    "ord-lapsing-7-1": {
+      "id": "ord-lapsing-7-1",
+      "customer_id": "cust-lapsing-7",
+      "amount": 2533,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-04-10"
+    },
+    "ord-lapsing-7-2": {
+      "id": "ord-lapsing-7-2",
+      "customer_id": "cust-lapsing-7",
+      "amount": 2133,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-03-26"
+    },
+    "ord-lapsing-7-3": {
+      "id": "ord-lapsing-7-3",
+      "customer_id": "cust-lapsing-7",
+      "amount": 2334,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-03-11"
+    },
+    "ord-lapsing-8-1": {
+      "id": "ord-lapsing-8-1",
+      "customer_id": "cust-lapsing-8",
+      "amount": 2075,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-04-07"
+    },
+    "ord-lapsing-8-2": {
+      "id": "ord-lapsing-8-2",
+      "customer_id": "cust-lapsing-8",
+      "amount": 1675,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-03-23"
+    },
+    "ord-lapsing-8-3": {
+      "id": "ord-lapsing-8-3",
+      "customer_id": "cust-lapsing-8",
+      "amount": 2075,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-03-08"
+    },
+    "ord-lapsing-8-4": {
+      "id": "ord-lapsing-8-4",
+      "customer_id": "cust-lapsing-8",
+      "amount": 1675,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-02-21"
+    },
+    "ord-lapsing-9-1": {
+      "id": "ord-lapsing-9-1",
+      "customer_id": "cust-lapsing-9",
+      "amount": 1800,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-04-04"
+    },
+    "ord-lapsing-9-2": {
+      "id": "ord-lapsing-9-2",
+      "customer_id": "cust-lapsing-9",
+      "amount": 1400,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-03-20"
+    },
+    "ord-lapsing-9-3": {
+      "id": "ord-lapsing-9-3",
+      "customer_id": "cust-lapsing-9",
+      "amount": 1800,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-03-05"
+    },
+    "ord-lapsing-9-4": {
+      "id": "ord-lapsing-9-4",
+      "customer_id": "cust-lapsing-9",
+      "amount": 1400,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-02-18"
+    },
+    "ord-lapsing-9-5": {
+      "id": "ord-lapsing-9-5",
+      "customer_id": "cust-lapsing-9",
+      "amount": 1600,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-02-03"
+    },
+    "ord-lapsing-10-1": {
+      "id": "ord-lapsing-10-1",
+      "customer_id": "cust-lapsing-10",
+      "amount": 3033,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-04-01"
+    },
+    "ord-lapsing-10-2": {
+      "id": "ord-lapsing-10-2",
+      "customer_id": "cust-lapsing-10",
+      "amount": 2633,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-03-17"
+    },
+    "ord-lapsing-10-3": {
+      "id": "ord-lapsing-10-3",
+      "customer_id": "cust-lapsing-10",
+      "amount": 2834,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-03-02"
+    },
+    "ord-lapsing-11-1": {
+      "id": "ord-lapsing-11-1",
+      "customer_id": "cust-lapsing-11",
+      "amount": 2450,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-03-29"
+    },
+    "ord-lapsing-11-2": {
+      "id": "ord-lapsing-11-2",
+      "customer_id": "cust-lapsing-11",
+      "amount": 2050,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-03-14"
+    },
+    "ord-lapsing-11-3": {
+      "id": "ord-lapsing-11-3",
+      "customer_id": "cust-lapsing-11",
+      "amount": 2450,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-02-27"
+    },
+    "ord-lapsing-11-4": {
+      "id": "ord-lapsing-11-4",
+      "customer_id": "cust-lapsing-11",
+      "amount": 2050,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-02-12"
+    },
+    "ord-lapsing-12-1": {
+      "id": "ord-lapsing-12-1",
+      "customer_id": "cust-lapsing-12",
+      "amount": 2100,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-03-26"
+    },
+    "ord-lapsing-12-2": {
+      "id": "ord-lapsing-12-2",
+      "customer_id": "cust-lapsing-12",
+      "amount": 1700,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-03-11"
+    },
+    "ord-lapsing-12-3": {
+      "id": "ord-lapsing-12-3",
+      "customer_id": "cust-lapsing-12",
+      "amount": 2100,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-02-24"
+    },
+    "ord-lapsing-12-4": {
+      "id": "ord-lapsing-12-4",
+      "customer_id": "cust-lapsing-12",
+      "amount": 1700,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-02-09"
+    },
+    "ord-lapsing-12-5": {
+      "id": "ord-lapsing-12-5",
+      "customer_id": "cust-lapsing-12",
+      "amount": 1900,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-01-25"
+    },
+    "ord-dormant-1-1": {
+      "id": "ord-dormant-1-1",
+      "customer_id": "cust-dormant-1",
+      "amount": 6250,
+      "product_category": "beauty",
+      "product_name": "Nivea Soft Cream",
+      "created_at": "2026-03-11"
+    },
+    "ord-dormant-1-2": {
+      "id": "ord-dormant-1-2",
+      "customer_id": "cust-dormant-1",
+      "amount": 4250,
+      "product_category": "food",
+      "product_name": "Hershey's Cocoa Powder",
+      "created_at": "2026-02-19"
+    },
+    "ord-dormant-1-3": {
+      "id": "ord-dormant-1-3",
+      "customer_id": "cust-dormant-1",
+      "amount": 6250,
+      "product_category": "fitness",
+      "product_name": "Whey Protein 1kg",
+      "created_at": "2026-01-30"
+    },
+    "ord-dormant-1-4": {
+      "id": "ord-dormant-1-4",
+      "customer_id": "cust-dormant-1",
+      "amount": 4250,
+      "product_category": "electronics",
+      "product_name": "boAt Rockerz 450",
+      "created_at": "2026-01-10"
+    },
+    "ord-dormant-2-1": {
+      "id": "ord-dormant-2-1",
+      "customer_id": "cust-dormant-2",
+      "amount": 5600,
+      "product_category": "beauty",
+      "product_name": "Nivea Soft Cream",
+      "created_at": "2026-03-01"
+    },
+    "ord-dormant-2-2": {
+      "id": "ord-dormant-2-2",
+      "customer_id": "cust-dormant-2",
+      "amount": 3600,
+      "product_category": "food",
+      "product_name": "Hershey's Cocoa Powder",
+      "created_at": "2026-02-09"
+    },
+    "ord-dormant-2-3": {
+      "id": "ord-dormant-2-3",
+      "customer_id": "cust-dormant-2",
+      "amount": 5600,
+      "product_category": "fitness",
+      "product_name": "Whey Protein 1kg",
+      "created_at": "2026-01-20"
+    },
+    "ord-dormant-2-4": {
+      "id": "ord-dormant-2-4",
+      "customer_id": "cust-dormant-2",
+      "amount": 3600,
+      "product_category": "electronics",
+      "product_name": "boAt Rockerz 450",
+      "created_at": "2025-12-31"
+    },
+    "ord-dormant-2-5": {
+      "id": "ord-dormant-2-5",
+      "customer_id": "cust-dormant-2",
+      "amount": 4600,
+      "product_category": "fashion",
+      "product_name": "FabIndia Kurta Set",
+      "created_at": "2025-12-11"
+    },
+    "ord-dormant-3-1": {
+      "id": "ord-dormant-3-1",
+      "customer_id": "cust-dormant-3",
+      "amount": 5167,
+      "product_category": "beauty",
+      "product_name": "Nivea Soft Cream",
+      "created_at": "2026-02-19"
+    },
+    "ord-dormant-3-2": {
+      "id": "ord-dormant-3-2",
+      "customer_id": "cust-dormant-3",
+      "amount": 3167,
+      "product_category": "food",
+      "product_name": "Hershey's Cocoa Powder",
+      "created_at": "2026-01-30"
+    },
+    "ord-dormant-3-3": {
+      "id": "ord-dormant-3-3",
+      "customer_id": "cust-dormant-3",
+      "amount": 5167,
+      "product_category": "fitness",
+      "product_name": "Whey Protein 1kg",
+      "created_at": "2026-01-10"
+    },
+    "ord-dormant-3-4": {
+      "id": "ord-dormant-3-4",
+      "customer_id": "cust-dormant-3",
+      "amount": 3167,
+      "product_category": "electronics",
+      "product_name": "boAt Rockerz 450",
+      "created_at": "2025-12-21"
+    },
+    "ord-dormant-3-5": {
+      "id": "ord-dormant-3-5",
+      "customer_id": "cust-dormant-3",
+      "amount": 5167,
+      "product_category": "fashion",
+      "product_name": "FabIndia Kurta Set",
+      "created_at": "2025-12-01"
+    },
+    "ord-dormant-3-6": {
+      "id": "ord-dormant-3-6",
+      "customer_id": "cust-dormant-3",
+      "amount": 3165,
+      "product_category": "beauty",
+      "product_name": "Nivea Soft Cream",
+      "created_at": "2025-11-11"
+    },
+    "ord-dormant-4-1": {
+      "id": "ord-dormant-4-1",
+      "customer_id": "cust-dormant-4",
+      "amount": 7750,
+      "product_category": "beauty",
+      "product_name": "Nivea Soft Cream",
+      "created_at": "2026-02-09"
+    },
+    "ord-dormant-4-2": {
+      "id": "ord-dormant-4-2",
+      "customer_id": "cust-dormant-4",
+      "amount": 5750,
+      "product_category": "food",
+      "product_name": "Hershey's Cocoa Powder",
+      "created_at": "2026-01-20"
+    },
+    "ord-dormant-4-3": {
+      "id": "ord-dormant-4-3",
+      "customer_id": "cust-dormant-4",
+      "amount": 7750,
+      "product_category": "fitness",
+      "product_name": "Whey Protein 1kg",
+      "created_at": "2025-12-31"
+    },
+    "ord-dormant-4-4": {
+      "id": "ord-dormant-4-4",
+      "customer_id": "cust-dormant-4",
+      "amount": 5750,
+      "product_category": "electronics",
+      "product_name": "boAt Rockerz 450",
+      "created_at": "2025-12-11"
+    },
+    "ord-dormant-5-1": {
+      "id": "ord-dormant-5-1",
+      "customer_id": "cust-dormant-5",
+      "amount": 6800,
+      "product_category": "beauty",
+      "product_name": "Nivea Soft Cream",
+      "created_at": "2026-01-30"
+    },
+    "ord-dormant-5-2": {
+      "id": "ord-dormant-5-2",
+      "customer_id": "cust-dormant-5",
+      "amount": 4800,
+      "product_category": "food",
+      "product_name": "Hershey's Cocoa Powder",
+      "created_at": "2026-01-10"
+    },
+    "ord-dormant-5-3": {
+      "id": "ord-dormant-5-3",
+      "customer_id": "cust-dormant-5",
+      "amount": 6800,
+      "product_category": "fitness",
+      "product_name": "Whey Protein 1kg",
+      "created_at": "2025-12-21"
+    },
+    "ord-dormant-5-4": {
+      "id": "ord-dormant-5-4",
+      "customer_id": "cust-dormant-5",
+      "amount": 4800,
+      "product_category": "electronics",
+      "product_name": "boAt Rockerz 450",
+      "created_at": "2025-12-01"
+    },
+    "ord-dormant-5-5": {
+      "id": "ord-dormant-5-5",
+      "customer_id": "cust-dormant-5",
+      "amount": 5800,
+      "product_category": "fashion",
+      "product_name": "FabIndia Kurta Set",
+      "created_at": "2025-11-11"
+    },
+    "ord-dormant-6-1": {
+      "id": "ord-dormant-6-1",
+      "customer_id": "cust-dormant-6",
+      "amount": 6167,
+      "product_category": "beauty",
+      "product_name": "Nivea Soft Cream",
+      "created_at": "2026-01-20"
+    },
+    "ord-dormant-6-2": {
+      "id": "ord-dormant-6-2",
+      "customer_id": "cust-dormant-6",
+      "amount": 4167,
+      "product_category": "food",
+      "product_name": "Hershey's Cocoa Powder",
+      "created_at": "2025-12-31"
+    },
+    "ord-dormant-6-3": {
+      "id": "ord-dormant-6-3",
+      "customer_id": "cust-dormant-6",
+      "amount": 6167,
+      "product_category": "fitness",
+      "product_name": "Whey Protein 1kg",
+      "created_at": "2025-12-11"
+    },
+    "ord-dormant-6-4": {
+      "id": "ord-dormant-6-4",
+      "customer_id": "cust-dormant-6",
+      "amount": 4167,
+      "product_category": "electronics",
+      "product_name": "boAt Rockerz 450",
+      "created_at": "2025-11-21"
+    },
+    "ord-dormant-6-5": {
+      "id": "ord-dormant-6-5",
+      "customer_id": "cust-dormant-6",
+      "amount": 6167,
+      "product_category": "fashion",
+      "product_name": "FabIndia Kurta Set",
+      "created_at": "2025-11-01"
+    },
+    "ord-dormant-6-6": {
+      "id": "ord-dormant-6-6",
+      "customer_id": "cust-dormant-6",
+      "amount": 4165,
+      "product_category": "beauty",
+      "product_name": "Nivea Soft Cream",
+      "created_at": "2025-10-12"
+    },
+    "ord-dormant-7-1": {
+      "id": "ord-dormant-7-1",
+      "customer_id": "cust-dormant-7",
+      "amount": 9250,
+      "product_category": "beauty",
+      "product_name": "Nivea Soft Cream",
+      "created_at": "2026-01-10"
+    },
+    "ord-dormant-7-2": {
+      "id": "ord-dormant-7-2",
+      "customer_id": "cust-dormant-7",
+      "amount": 7250,
+      "product_category": "food",
+      "product_name": "Hershey's Cocoa Powder",
+      "created_at": "2025-12-21"
+    },
+    "ord-dormant-7-3": {
+      "id": "ord-dormant-7-3",
+      "customer_id": "cust-dormant-7",
+      "amount": 9250,
+      "product_category": "fitness",
+      "product_name": "Whey Protein 1kg",
+      "created_at": "2025-12-01"
+    },
+    "ord-dormant-7-4": {
+      "id": "ord-dormant-7-4",
+      "customer_id": "cust-dormant-7",
+      "amount": 7250,
+      "product_category": "electronics",
+      "product_name": "boAt Rockerz 450",
+      "created_at": "2025-11-11"
+    },
+    "ord-dormant-8-1": {
+      "id": "ord-dormant-8-1",
+      "customer_id": "cust-dormant-8",
+      "amount": 8000,
+      "product_category": "beauty",
+      "product_name": "Nivea Soft Cream",
+      "created_at": "2025-12-31"
+    },
+    "ord-dormant-8-2": {
+      "id": "ord-dormant-8-2",
+      "customer_id": "cust-dormant-8",
+      "amount": 6000,
+      "product_category": "food",
+      "product_name": "Hershey's Cocoa Powder",
+      "created_at": "2025-12-11"
+    },
+    "ord-dormant-8-3": {
+      "id": "ord-dormant-8-3",
+      "customer_id": "cust-dormant-8",
+      "amount": 8000,
+      "product_category": "fitness",
+      "product_name": "Whey Protein 1kg",
+      "created_at": "2025-11-21"
+    },
+    "ord-dormant-8-4": {
+      "id": "ord-dormant-8-4",
+      "customer_id": "cust-dormant-8",
+      "amount": 6000,
+      "product_category": "electronics",
+      "product_name": "boAt Rockerz 450",
+      "created_at": "2025-11-01"
+    },
+    "ord-dormant-8-5": {
+      "id": "ord-dormant-8-5",
+      "customer_id": "cust-dormant-8",
+      "amount": 7000,
+      "product_category": "fashion",
+      "product_name": "FabIndia Kurta Set",
+      "created_at": "2025-10-12"
+    },
+    "ord-new-1-1": {
+      "id": "ord-new-1-1",
+      "customer_id": "cust-new-1",
+      "amount": 800,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-06-10"
+    },
+    "ord-new-2-1": {
+      "id": "ord-new-2-1",
+      "customer_id": "cust-new-2",
+      "amount": 1150,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-06-08"
+    },
+    "ord-new-3-1": {
+      "id": "ord-new-3-1",
+      "customer_id": "cust-new-3",
+      "amount": 1500,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-06-06"
+    },
+    "ord-new-4-1": {
+      "id": "ord-new-4-1",
+      "customer_id": "cust-new-4",
+      "amount": 1850,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-06-04"
+    },
+    "ord-new-5-1": {
+      "id": "ord-new-5-1",
+      "customer_id": "cust-new-5",
+      "amount": 2200,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-06-02"
+    },
+    "ord-new-6-1": {
+      "id": "ord-new-6-1",
+      "customer_id": "cust-new-6",
+      "amount": 2550,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-05-31"
+    },
+    "ord-new-7-1": {
+      "id": "ord-new-7-1",
+      "customer_id": "cust-new-7",
+      "amount": 2900,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-05-29"
+    },
+    "ord-new-8-1": {
+      "id": "ord-new-8-1",
+      "customer_id": "cust-new-8",
+      "amount": 3250,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-05-27"
+    },
+    "ord-new-9-1": {
+      "id": "ord-new-9-1",
+      "customer_id": "cust-new-9",
+      "amount": 3600,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-05-25"
+    },
+    "ord-new-10-1": {
+      "id": "ord-new-10-1",
+      "customer_id": "cust-new-10",
+      "amount": 3950,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-05-23"
+    },
+    "ord-city-1-1": {
+      "id": "ord-city-1-1",
+      "customer_id": "cust-city-1",
+      "amount": 1350,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-05-27"
+    },
+    "ord-city-1-2": {
+      "id": "ord-city-1-2",
+      "customer_id": "cust-city-1",
+      "amount": 1150,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-05-15"
+    },
+    "ord-city-2-1": {
+      "id": "ord-city-2-1",
+      "customer_id": "cust-city-2",
+      "amount": 1650,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-05-23"
+    },
+    "ord-city-2-2": {
+      "id": "ord-city-2-2",
+      "customer_id": "cust-city-2",
+      "amount": 1450,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-05-11"
+    },
+    "ord-city-3-1": {
+      "id": "ord-city-3-1",
+      "customer_id": "cust-city-3",
+      "amount": 1950,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-05-19"
+    },
+    "ord-city-3-2": {
+      "id": "ord-city-3-2",
+      "customer_id": "cust-city-3",
+      "amount": 1750,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-05-07"
+    },
+    "ord-city-4-1": {
+      "id": "ord-city-4-1",
+      "customer_id": "cust-city-4",
+      "amount": 2250,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-05-15"
+    },
+    "ord-city-4-2": {
+      "id": "ord-city-4-2",
+      "customer_id": "cust-city-4",
+      "amount": 2050,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-05-03"
+    },
+    "ord-city-5-1": {
+      "id": "ord-city-5-1",
+      "customer_id": "cust-city-5",
+      "amount": 2550,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-05-11"
+    },
+    "ord-city-5-2": {
+      "id": "ord-city-5-2",
+      "customer_id": "cust-city-5",
+      "amount": 2350,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-04-29"
+    },
+    "ord-city-6-1": {
+      "id": "ord-city-6-1",
+      "customer_id": "cust-city-6",
+      "amount": 2850,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-05-07"
+    },
+    "ord-city-6-2": {
+      "id": "ord-city-6-2",
+      "customer_id": "cust-city-6",
+      "amount": 2650,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-04-25"
+    },
+    "ord-city-7-1": {
+      "id": "ord-city-7-1",
+      "customer_id": "cust-city-7",
+      "amount": 3150,
+      "product_category": "fashion",
+      "product_name": "Puma Suede Classic",
+      "created_at": "2026-05-03"
+    },
+    "ord-city-7-2": {
+      "id": "ord-city-7-2",
+      "customer_id": "cust-city-7",
+      "amount": 2950,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-04-21"
+    },
+    "ord-city-8-1": {
+      "id": "ord-city-8-1",
+      "customer_id": "cust-city-8",
+      "amount": 3450,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-04-29"
+    },
+    "ord-city-8-2": {
+      "id": "ord-city-8-2",
+      "customer_id": "cust-city-8",
+      "amount": 3250,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-04-17"
+    },
+    "ord-city-9-1": {
+      "id": "ord-city-9-1",
+      "customer_id": "cust-city-9",
+      "amount": 3750,
+      "product_category": "food",
+      "product_name": "Prestige Almonds Premium",
+      "created_at": "2026-04-25"
+    },
+    "ord-city-9-2": {
+      "id": "ord-city-9-2",
+      "customer_id": "cust-city-9",
+      "amount": 3550,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-04-13"
+    },
+    "ord-city-10-1": {
+      "id": "ord-city-10-1",
+      "customer_id": "cust-city-10",
+      "amount": 4050,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-04-21"
+    },
+    "ord-city-10-2": {
+      "id": "ord-city-10-2",
+      "customer_id": "cust-city-10",
+      "amount": 3850,
+      "product_category": "electronics",
+      "product_name": "OnePlus 12R",
+      "created_at": "2026-04-09"
+    },
+    "ord-cat-1-1": {
+      "id": "ord-cat-1-1",
+      "customer_id": "cust-cat-1",
+      "amount": 1000,
+      "product_category": "fitness",
+      "product_name": "Whey Protein 1kg",
+      "created_at": "2026-06-04"
+    },
+    "ord-cat-1-2": {
+      "id": "ord-cat-1-2",
+      "customer_id": "cust-cat-1",
+      "amount": 1000,
+      "product_category": "fitness",
+      "product_name": "MuscleBlaze Creatine 250g",
+      "created_at": "2026-05-27"
+    },
+    "ord-cat-1-3": {
+      "id": "ord-cat-1-3",
+      "customer_id": "cust-cat-1",
+      "amount": 1000,
+      "product_category": "fitness",
+      "product_name": "Boldfit Yoga Mat",
+      "created_at": "2026-05-19"
+    },
+    "ord-cat-2-1": {
+      "id": "ord-cat-2-1",
+      "customer_id": "cust-cat-2",
+      "amount": 925,
+      "product_category": "fitness",
+      "product_name": "MuscleBlaze Creatine 250g",
+      "created_at": "2026-05-30"
+    },
+    "ord-cat-2-2": {
+      "id": "ord-cat-2-2",
+      "customer_id": "cust-cat-2",
+      "amount": 925,
+      "product_category": "fitness",
+      "product_name": "Boldfit Yoga Mat",
+      "created_at": "2026-05-22"
+    },
+    "ord-cat-2-3": {
+      "id": "ord-cat-2-3",
+      "customer_id": "cust-cat-2",
+      "amount": 925,
+      "product_category": "fitness",
+      "product_name": "Skipping Rope with Counter",
+      "created_at": "2026-05-14"
+    },
+    "ord-cat-2-4": {
+      "id": "ord-cat-2-4",
+      "customer_id": "cust-cat-2",
+      "amount": 925,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-05-06"
+    },
+    "ord-cat-3-1": {
+      "id": "ord-cat-3-1",
+      "customer_id": "cust-cat-3",
+      "amount": 1467,
+      "product_category": "fitness",
+      "product_name": "Boldfit Yoga Mat",
+      "created_at": "2026-05-25"
+    },
+    "ord-cat-3-2": {
+      "id": "ord-cat-3-2",
+      "customer_id": "cust-cat-3",
+      "amount": 1467,
+      "product_category": "fitness",
+      "product_name": "Skipping Rope with Counter",
+      "created_at": "2026-05-17"
+    },
+    "ord-cat-3-3": {
+      "id": "ord-cat-3-3",
+      "customer_id": "cust-cat-3",
+      "amount": 1466,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-05-09"
+    },
+    "ord-cat-4-1": {
+      "id": "ord-cat-4-1",
+      "customer_id": "cust-cat-4",
+      "amount": 1275,
+      "product_category": "fitness",
+      "product_name": "Skipping Rope with Counter",
+      "created_at": "2026-05-20"
+    },
+    "ord-cat-4-2": {
+      "id": "ord-cat-4-2",
+      "customer_id": "cust-cat-4",
+      "amount": 1275,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-05-12"
+    },
+    "ord-cat-4-3": {
+      "id": "ord-cat-4-3",
+      "customer_id": "cust-cat-4",
+      "amount": 1275,
+      "product_category": "fitness",
+      "product_name": "Whey Protein 1kg",
+      "created_at": "2026-05-04"
+    },
+    "ord-cat-4-4": {
+      "id": "ord-cat-4-4",
+      "customer_id": "cust-cat-4",
+      "amount": 1275,
+      "product_category": "fitness",
+      "product_name": "MuscleBlaze Creatine 250g",
+      "created_at": "2026-04-26"
+    },
+    "ord-cat-5-1": {
+      "id": "ord-cat-5-1",
+      "customer_id": "cust-cat-5",
+      "amount": 1933,
+      "product_category": "fitness",
+      "product_name": "Hexa Dumbbell 5kg Pair",
+      "created_at": "2026-05-15"
+    },
+    "ord-cat-5-2": {
+      "id": "ord-cat-5-2",
+      "customer_id": "cust-cat-5",
+      "amount": 1933,
+      "product_category": "fitness",
+      "product_name": "Whey Protein 1kg",
+      "created_at": "2026-05-07"
+    },
+    "ord-cat-5-3": {
+      "id": "ord-cat-5-3",
+      "customer_id": "cust-cat-5",
+      "amount": 1934,
+      "product_category": "fitness",
+      "product_name": "MuscleBlaze Creatine 250g",
+      "created_at": "2026-04-29"
+    },
+    "ord-cat-6-1": {
+      "id": "ord-cat-6-1",
+      "customer_id": "cust-cat-6",
+      "amount": 1625,
+      "product_category": "beauty",
+      "product_name": "Maybelline Lipstick",
+      "created_at": "2026-05-10"
+    },
+    "ord-cat-6-2": {
+      "id": "ord-cat-6-2",
+      "customer_id": "cust-cat-6",
+      "amount": 1625,
+      "product_category": "beauty",
+      "product_name": "Mcaffeine Face Scrub",
+      "created_at": "2026-05-02"
+    },
+    "ord-cat-6-3": {
+      "id": "ord-cat-6-3",
+      "customer_id": "cust-cat-6",
+      "amount": 1625,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-04-24"
+    },
+    "ord-cat-6-4": {
+      "id": "ord-cat-6-4",
+      "customer_id": "cust-cat-6",
+      "amount": 1625,
+      "product_category": "beauty",
+      "product_name": "Nivea Soft Cream",
+      "created_at": "2026-04-16"
+    },
+    "ord-cat-7-1": {
+      "id": "ord-cat-7-1",
+      "customer_id": "cust-cat-7",
+      "amount": 2400,
+      "product_category": "beauty",
+      "product_name": "Mcaffeine Face Scrub",
+      "created_at": "2026-05-05"
+    },
+    "ord-cat-7-2": {
+      "id": "ord-cat-7-2",
+      "customer_id": "cust-cat-7",
+      "amount": 2400,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-04-27"
+    },
+    "ord-cat-7-3": {
+      "id": "ord-cat-7-3",
+      "customer_id": "cust-cat-7",
+      "amount": 2400,
+      "product_category": "beauty",
+      "product_name": "Nivea Soft Cream",
+      "created_at": "2026-04-19"
+    },
+    "ord-cat-8-1": {
+      "id": "ord-cat-8-1",
+      "customer_id": "cust-cat-8",
+      "amount": 1975,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-04-30"
+    },
+    "ord-cat-8-2": {
+      "id": "ord-cat-8-2",
+      "customer_id": "cust-cat-8",
+      "amount": 1975,
+      "product_category": "beauty",
+      "product_name": "Nivea Soft Cream",
+      "created_at": "2026-04-22"
+    },
+    "ord-cat-8-3": {
+      "id": "ord-cat-8-3",
+      "customer_id": "cust-cat-8",
+      "amount": 1975,
+      "product_category": "beauty",
+      "product_name": "Plum Green Tea Toner",
+      "created_at": "2026-04-14"
+    },
+    "ord-cat-8-4": {
+      "id": "ord-cat-8-4",
+      "customer_id": "cust-cat-8",
+      "amount": 1975,
+      "product_category": "beauty",
+      "product_name": "Maybelline Lipstick",
+      "created_at": "2026-04-06"
+    },
+    "ord-cat-9-1": {
+      "id": "ord-cat-9-1",
+      "customer_id": "cust-cat-9",
+      "amount": 2867,
+      "product_category": "beauty",
+      "product_name": "Nivea Soft Cream",
+      "created_at": "2026-04-25"
+    },
+    "ord-cat-9-2": {
+      "id": "ord-cat-9-2",
+      "customer_id": "cust-cat-9",
+      "amount": 2867,
+      "product_category": "beauty",
+      "product_name": "Plum Green Tea Toner",
+      "created_at": "2026-04-17"
+    },
+    "ord-cat-9-3": {
+      "id": "ord-cat-9-3",
+      "customer_id": "cust-cat-9",
+      "amount": 2866,
+      "product_category": "beauty",
+      "product_name": "Maybelline Lipstick",
+      "created_at": "2026-04-09"
+    },
+    "ord-cat-10-1": {
+      "id": "ord-cat-10-1",
+      "customer_id": "cust-cat-10",
+      "amount": 2325,
+      "product_category": "beauty",
+      "product_name": "Plum Green Tea Toner",
+      "created_at": "2026-04-20"
+    },
+    "ord-cat-10-2": {
+      "id": "ord-cat-10-2",
+      "customer_id": "cust-cat-10",
+      "amount": 2325,
+      "product_category": "beauty",
+      "product_name": "Maybelline Lipstick",
+      "created_at": "2026-04-12"
+    },
+    "ord-cat-10-3": {
+      "id": "ord-cat-10-3",
+      "customer_id": "cust-cat-10",
+      "amount": 2325,
+      "product_category": "beauty",
+      "product_name": "Mcaffeine Face Scrub",
+      "created_at": "2026-04-04"
+    },
+    "ord-cat-10-4": {
+      "id": "ord-cat-10-4",
+      "customer_id": "cust-cat-10",
+      "amount": 2325,
+      "product_category": "beauty",
+      "product_name": "Mamaearth Onion Hair Oil",
+      "created_at": "2026-03-27"
+    }
+  },
+  "campaigns": {
+    "camp-0sp11nk20whpc159suisn": {
+      "id": "camp-0sp11nk20whpc159suisn",
+      "name": "Loyal Customers High Spenders 20% Off",
+      "goal": "Reward loyal customers who have spent over 15,000 with a 20% discount coupon to drive repeat purchases.",
+      "segment_rule_json": {
+        "filters": [
+          {
+            "field": "total_spent",
+            "operator": "greater_than",
+            "value": "15000"
+          }
+        ]
+      },
+      "segment_sql": "total_spent > 15000",
+      "channel": "whatsapp",
+      "message_template": "Hey {{name}}! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "status": "completed",
+      "audience_size": 18,
+      "created_by_prompt": "Target loyal customers with total spent above 15000 and send them a 20% discount coupon via WhatsApp.",
+      "created_at": "2026-06-14T10:29:28.471Z"
+    },
+    "camp-1a4xockfwplgughc5y96sq": {
+      "id": "camp-1a4xockfwplgughc5y96sq",
+      "name": "Lapsing Customers Wakeup SMS",
+      "goal": "Re-engage customers who haven't made a purchase in the last 45 days with a wakeup coupon.",
+      "segment_rule_json": {
+        "filters": [
+          {
+            "field": "last_purchase_date",
+            "operator": "less_than",
+            "value": "NOW() - INTERVAL '45 days'"
+          }
+        ]
+      },
+      "segment_sql": "last_purchase_date < NOW() - INTERVAL '45 days'",
+      "channel": "sms",
+      "message_template": "Hey {{name}}, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "status": "completed",
+      "audience_size": 26,
+      "created_by_prompt": "Segment lapsing customers who haven't ordered in 45 days and compose an SMS wakeup coupon",
+      "created_at": "2026-06-14T11:15:19.103Z"
+    }
+  },
+  "communications": {
+    "comm-puv32ol447fdvsigwydae": {
+      "id": "comm-puv32ol447fdvsigwydae",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-loyal-1",
+      "message": "Hey Aarav Sharma! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "opened",
+      "created_at": "2026-06-14T10:29:28.472Z",
+      "sent_at": "2026-06-14T10:42:34.916Z",
+      "delivered_at": "2026-06-14T10:42:36.044Z",
+      "opened_at": "2026-06-14T10:42:43.247Z"
+    },
+    "comm-0x097wf9yoyesw3xhjhyoop": {
+      "id": "comm-0x097wf9yoyesw3xhjhyoop",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-loyal-2",
+      "message": "Hey Aditi Patel! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "failed",
+      "created_at": "2026-06-14T10:29:28.473Z",
+      "sent_at": "2026-06-14T10:42:34.918Z",
+      "failed_at": "2026-06-14T10:42:37.624Z"
+    },
+    "comm-b8ad9g867jq6fhahxln8dv": {
+      "id": "comm-b8ad9g867jq6fhahxln8dv",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-loyal-3",
+      "message": "Hey Rohan Verma! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "delivered",
+      "created_at": "2026-06-14T10:29:28.474Z",
+      "sent_at": "2026-06-14T10:42:34.919Z",
+      "delivered_at": "2026-06-14T10:42:36.971Z"
+    },
+    "comm-zjrpssrcj2ehev71ice01i": {
+      "id": "comm-zjrpssrcj2ehev71ice01i",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-loyal-4",
+      "message": "Hey Ananya Iyer! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "delivered",
+      "created_at": "2026-06-14T10:29:28.475Z",
+      "sent_at": "2026-06-14T10:42:34.921Z",
+      "delivered_at": "2026-06-14T10:42:37.261Z"
+    },
+    "comm-wekhvt9mc8j32lrs3ruj1j": {
+      "id": "comm-wekhvt9mc8j32lrs3ruj1j",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-loyal-5",
+      "message": "Hey Karan Malhotra! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "opened",
+      "created_at": "2026-06-14T10:29:28.476Z",
+      "sent_at": "2026-06-14T10:42:34.922Z",
+      "delivered_at": "2026-06-14T10:42:36.758Z",
+      "opened_at": "2026-06-14T10:42:40.891Z"
+    },
+    "comm-3qr3cqkv72px4xtqdcd4on": {
+      "id": "comm-3qr3cqkv72px4xtqdcd4on",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-loyal-6",
+      "message": "Hey Priya Sengupta! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "clicked",
+      "created_at": "2026-06-14T10:29:28.478Z",
+      "sent_at": "2026-06-14T10:42:34.924Z",
+      "delivered_at": "2026-06-14T10:42:37.678Z",
+      "opened_at": "2026-06-14T10:42:41.132Z",
+      "clicked_at": "2026-06-14T10:42:46.668Z"
+    },
+    "comm-nfahbx42b1g102is66p5yzr": {
+      "id": "comm-nfahbx42b1g102is66p5yzr",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-loyal-7",
+      "message": "Hey Kabir Joshi! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "delivered",
+      "created_at": "2026-06-14T10:29:28.479Z",
+      "sent_at": "2026-06-14T10:42:34.927Z",
+      "delivered_at": "2026-06-14T10:42:36.607Z"
+    },
+    "comm-5y1ue6kd4gsb1mk3ls3s0m": {
+      "id": "comm-5y1ue6kd4gsb1mk3ls3s0m",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-loyal-8",
+      "message": "Hey Meera Nair! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "clicked",
+      "created_at": "2026-06-14T10:29:28.480Z",
+      "sent_at": "2026-06-14T10:42:34.929Z",
+      "delivered_at": "2026-06-14T10:42:36.871Z",
+      "opened_at": "2026-06-14T10:42:42.736Z",
+      "clicked_at": "2026-06-14T10:42:53.980Z"
+    },
+    "comm-qho3rwlc3lem1r3xquv9y": {
+      "id": "comm-qho3rwlc3lem1r3xquv9y",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-loyal-9",
+      "message": "Hey Amit Saxena! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "delivered",
+      "created_at": "2026-06-14T10:29:28.481Z",
+      "sent_at": "2026-06-14T10:42:34.931Z",
+      "delivered_at": "2026-06-14T10:42:36.941Z"
+    },
+    "comm-vyo8bomkb8m26vvaxxfqc": {
+      "id": "comm-vyo8bomkb8m26vvaxxfqc",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-loyal-10",
+      "message": "Hey Riya Kapoor! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "delivered",
+      "created_at": "2026-06-14T10:29:28.482Z",
+      "sent_at": "2026-06-14T10:42:34.933Z",
+      "delivered_at": "2026-06-14T10:42:37.639Z"
+    },
+    "comm-gz65dd5677o7z3xg4uuvx": {
+      "id": "comm-gz65dd5677o7z3xg4uuvx",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-dormant-1",
+      "message": "Hey Vijay Mallya! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "clicked",
+      "created_at": "2026-06-14T10:29:28.483Z",
+      "sent_at": "2026-06-14T10:42:34.935Z",
+      "delivered_at": "2026-06-14T10:42:36.150Z",
+      "opened_at": "2026-06-14T10:42:42.001Z",
+      "clicked_at": "2026-06-14T10:42:50.335Z"
+    },
+    "comm-oxut0cmelc86jeh5e06ch": {
+      "id": "comm-oxut0cmelc86jeh5e06ch",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-dormant-2",
+      "message": "Hey Shalini Oberoi! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "delivered",
+      "created_at": "2026-06-14T10:29:28.485Z",
+      "sent_at": "2026-06-14T10:42:34.936Z",
+      "delivered_at": "2026-06-14T10:42:37.951Z"
+    },
+    "comm-i88m92vbaacc0oxnyw6hk": {
+      "id": "comm-i88m92vbaacc0oxnyw6hk",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-dormant-3",
+      "message": "Hey Aditya Birla! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "opened",
+      "created_at": "2026-06-14T10:29:28.486Z",
+      "sent_at": "2026-06-14T10:42:34.939Z",
+      "delivered_at": "2026-06-14T10:42:36.034Z",
+      "opened_at": "2026-06-14T10:42:43.835Z"
+    },
+    "comm-ogrbboswbo1e9aup46vja": {
+      "id": "comm-ogrbboswbo1e9aup46vja",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-dormant-4",
+      "message": "Hey Kiran Mazumdar! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "delivered",
+      "created_at": "2026-06-14T10:29:28.487Z",
+      "sent_at": "2026-06-14T10:42:34.940Z",
+      "delivered_at": "2026-06-14T10:42:37.309Z"
+    },
+    "comm-o1znurxiw9iaqmbnt7ni": {
+      "id": "comm-o1znurxiw9iaqmbnt7ni",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-dormant-5",
+      "message": "Hey Ratan Tata! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "opened",
+      "created_at": "2026-06-14T10:29:28.488Z",
+      "sent_at": "2026-06-14T10:42:34.941Z",
+      "delivered_at": "2026-06-14T10:42:37.278Z",
+      "opened_at": "2026-06-14T10:42:44.078Z"
+    },
+    "comm-f1j8mnlaa758k75gv12ksv": {
+      "id": "comm-f1j8mnlaa758k75gv12ksv",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-dormant-6",
+      "message": "Hey Nita Ambani! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "opened",
+      "created_at": "2026-06-14T10:29:28.489Z",
+      "sent_at": "2026-06-14T10:42:34.942Z",
+      "delivered_at": "2026-06-14T10:42:37.419Z",
+      "opened_at": "2026-06-14T10:42:41.886Z"
+    },
+    "comm-7c0yt8rhn3jnfcivqrkc0d": {
+      "id": "comm-7c0yt8rhn3jnfcivqrkc0d",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-dormant-7",
+      "message": "Hey Azim Premji! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "delivered",
+      "created_at": "2026-06-14T10:29:28.490Z",
+      "sent_at": "2026-06-14T10:42:34.944Z",
+      "delivered_at": "2026-06-14T10:42:36.527Z"
+    },
+    "comm-tltxltsmpxoxaw6013bx": {
+      "id": "comm-tltxltsmpxoxaw6013bx",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "customer_id": "cust-dormant-8",
+      "message": "Hey Anand Mahindra! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!",
+      "channel": "whatsapp",
+      "status": "opened",
+      "created_at": "2026-06-14T10:29:28.492Z",
+      "sent_at": "2026-06-14T10:42:34.945Z",
+      "delivered_at": "2026-06-14T10:42:36.894Z",
+      "opened_at": "2026-06-14T10:42:43.269Z"
+    },
+    "comm-snlj9a5nf1fbjzqurr5gaq": {
+      "id": "comm-snlj9a5nf1fbjzqurr5gaq",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-lapsing-1",
+      "message": "Hey Vikram Chawla, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "failed",
+      "created_at": "2026-06-14T11:15:19.105Z",
+      "sent_at": "2026-06-14T11:15:21.312Z",
+      "failed_at": "2026-06-14T11:15:24.017Z"
+    },
+    "comm-c3dcr4jtwrx0odpi8cilf": {
+      "id": "comm-c3dcr4jtwrx0odpi8cilf",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-lapsing-2",
+      "message": "Hey Sneha Rao, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "delivered",
+      "created_at": "2026-06-14T11:15:19.106Z",
+      "sent_at": "2026-06-14T11:15:21.314Z",
+      "delivered_at": "2026-06-14T11:15:23.049Z"
+    },
+    "comm-pm3jyby54ccee9a0xtvrna": {
+      "id": "comm-pm3jyby54ccee9a0xtvrna",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-lapsing-3",
+      "message": "Hey Divya Menon, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "delivered",
+      "created_at": "2026-06-14T11:15:19.107Z",
+      "sent_at": "2026-06-14T11:15:21.316Z",
+      "delivered_at": "2026-06-14T11:15:23.835Z"
+    },
+    "comm-hvgkp8zm4ha3whlm9i1el": {
+      "id": "comm-hvgkp8zm4ha3whlm9i1el",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-lapsing-4",
+      "message": "Hey Gaurav Sen, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "opened",
+      "created_at": "2026-06-14T11:15:19.108Z",
+      "sent_at": "2026-06-14T11:15:21.317Z",
+      "delivered_at": "2026-06-14T11:15:22.715Z",
+      "opened_at": "2026-06-14T11:15:26.792Z"
+    },
+    "comm-wodb3gd0glfqi9tpbf0dgl": {
+      "id": "comm-wodb3gd0glfqi9tpbf0dgl",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-lapsing-5",
+      "message": "Hey Tanya Dutta, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "opened",
+      "created_at": "2026-06-14T11:15:19.109Z",
+      "sent_at": "2026-06-14T11:15:21.319Z",
+      "delivered_at": "2026-06-14T11:15:23.347Z",
+      "opened_at": "2026-06-14T11:15:27.194Z"
+    },
+    "comm-lu411l7vg5rnmyikyu1z3": {
+      "id": "comm-lu411l7vg5rnmyikyu1z3",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-lapsing-6",
+      "message": "Hey Vivek Bhat, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "opened",
+      "created_at": "2026-06-14T11:15:19.110Z",
+      "sent_at": "2026-06-14T11:15:21.321Z",
+      "delivered_at": "2026-06-14T11:15:23.643Z",
+      "opened_at": "2026-06-14T11:15:30.812Z"
+    },
+    "comm-quvaesbdxhegnwcueslz": {
+      "id": "comm-quvaesbdxhegnwcueslz",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-lapsing-7",
+      "message": "Hey Ishita Gupta, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "opened",
+      "created_at": "2026-06-14T11:15:19.112Z",
+      "sent_at": "2026-06-14T11:15:21.322Z",
+      "delivered_at": "2026-06-14T11:15:23.022Z",
+      "opened_at": "2026-06-14T11:15:28.586Z"
+    },
+    "comm-x8a82zwlbwe4vi0tvlz6v": {
+      "id": "comm-x8a82zwlbwe4vi0tvlz6v",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-lapsing-8",
+      "message": "Hey Pranav Shah, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "clicked",
+      "created_at": "2026-06-14T11:15:19.113Z",
+      "sent_at": "2026-06-14T11:15:21.324Z",
+      "delivered_at": "2026-06-14T11:15:22.878Z",
+      "opened_at": "2026-06-14T11:15:29.164Z",
+      "clicked_at": "2026-06-14T11:15:41.774Z"
+    },
+    "comm-9hxr6fntkssdanrysmf3hn": {
+      "id": "comm-9hxr6fntkssdanrysmf3hn",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-lapsing-9",
+      "message": "Hey Aarti Pandey, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "delivered",
+      "created_at": "2026-06-14T11:15:19.114Z",
+      "sent_at": "2026-06-14T11:15:21.325Z",
+      "delivered_at": "2026-06-14T11:15:24.121Z"
+    },
+    "comm-sf2if1x9z4f8n95auycv1b": {
+      "id": "comm-sf2if1x9z4f8n95auycv1b",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-lapsing-10",
+      "message": "Hey Sanjay Deshmukh, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "clicked",
+      "created_at": "2026-06-14T11:15:19.116Z",
+      "sent_at": "2026-06-14T11:15:21.327Z",
+      "delivered_at": "2026-06-14T11:15:24.076Z",
+      "opened_at": "2026-06-14T11:15:27.257Z",
+      "clicked_at": "2026-06-14T11:15:34.650Z"
+    },
+    "comm-pv6dktp5uisf8zg8w3y3z": {
+      "id": "comm-pv6dktp5uisf8zg8w3y3z",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-lapsing-11",
+      "message": "Hey Kirti Sinha, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "failed",
+      "created_at": "2026-06-14T11:15:19.117Z",
+      "sent_at": "2026-06-14T11:15:21.329Z",
+      "failed_at": "2026-06-14T11:15:23.968Z"
+    },
+    "comm-ri6fshjxgvpv4zovhaui49": {
+      "id": "comm-ri6fshjxgvpv4zovhaui49",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-lapsing-12",
+      "message": "Hey Rahul Ghosh, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "opened",
+      "created_at": "2026-06-14T11:15:19.118Z",
+      "sent_at": "2026-06-14T11:15:21.330Z",
+      "delivered_at": "2026-06-14T11:15:24.025Z",
+      "opened_at": "2026-06-14T11:15:29.980Z"
+    },
+    "comm-uuggqox7urrv6eo85ksrj9": {
+      "id": "comm-uuggqox7urrv6eo85ksrj9",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-dormant-1",
+      "message": "Hey Vijay Mallya, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "clicked",
+      "created_at": "2026-06-14T11:15:19.119Z",
+      "sent_at": "2026-06-14T11:15:21.332Z",
+      "delivered_at": "2026-06-14T11:15:22.393Z",
+      "opened_at": "2026-06-14T11:15:27.328Z",
+      "clicked_at": "2026-06-14T11:15:39.838Z"
+    },
+    "comm-d5wje1mz6zigwsxwehj9o8": {
+      "id": "comm-d5wje1mz6zigwsxwehj9o8",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-dormant-2",
+      "message": "Hey Shalini Oberoi, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "clicked",
+      "created_at": "2026-06-14T11:15:19.120Z",
+      "sent_at": "2026-06-14T11:15:21.333Z",
+      "delivered_at": "2026-06-14T11:15:23.456Z",
+      "opened_at": "2026-06-14T11:15:30.172Z",
+      "clicked_at": "2026-06-14T11:15:39.128Z"
+    },
+    "comm-9k7itigu0jh0vzn0bpojoga": {
+      "id": "comm-9k7itigu0jh0vzn0bpojoga",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-dormant-3",
+      "message": "Hey Aditya Birla, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "clicked",
+      "created_at": "2026-06-14T11:15:19.121Z",
+      "sent_at": "2026-06-14T11:15:21.334Z",
+      "delivered_at": "2026-06-14T11:15:23.060Z",
+      "opened_at": "2026-06-14T11:15:27.230Z",
+      "clicked_at": "2026-06-14T11:15:35.098Z"
+    },
+    "comm-6800ws85h53iuo4kdqlzam": {
+      "id": "comm-6800ws85h53iuo4kdqlzam",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-dormant-4",
+      "message": "Hey Kiran Mazumdar, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "opened",
+      "created_at": "2026-06-14T11:15:19.123Z",
+      "sent_at": "2026-06-14T11:15:21.336Z",
+      "delivered_at": "2026-06-14T11:15:24.008Z",
+      "opened_at": "2026-06-14T11:15:28.224Z"
+    },
+    "comm-awkkew3ul5megoj132vcbp": {
+      "id": "comm-awkkew3ul5megoj132vcbp",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-dormant-5",
+      "message": "Hey Ratan Tata, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "opened",
+      "created_at": "2026-06-14T11:15:19.124Z",
+      "sent_at": "2026-06-14T11:15:21.338Z",
+      "delivered_at": "2026-06-14T11:15:22.439Z",
+      "opened_at": "2026-06-14T11:15:29.325Z"
+    },
+    "comm-l77qczmdxsd8olpu99gtg": {
+      "id": "comm-l77qczmdxsd8olpu99gtg",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-dormant-6",
+      "message": "Hey Nita Ambani, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "opened",
+      "created_at": "2026-06-14T11:15:19.125Z",
+      "sent_at": "2026-06-14T11:15:21.339Z",
+      "delivered_at": "2026-06-14T11:15:22.879Z",
+      "opened_at": "2026-06-14T11:15:26.862Z"
+    },
+    "comm-sbzl5b2kt8r4gjjkruaqk": {
+      "id": "comm-sbzl5b2kt8r4gjjkruaqk",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-dormant-7",
+      "message": "Hey Azim Premji, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "opened",
+      "created_at": "2026-06-14T11:15:19.126Z",
+      "sent_at": "2026-06-14T11:15:21.341Z",
+      "delivered_at": "2026-06-14T11:15:23.110Z",
+      "opened_at": "2026-06-14T11:15:29.660Z"
+    },
+    "comm-d8ku4vxub0ennoib3wb38f": {
+      "id": "comm-d8ku4vxub0ennoib3wb38f",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-dormant-8",
+      "message": "Hey Anand Mahindra, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "delivered",
+      "created_at": "2026-06-14T11:15:19.127Z",
+      "sent_at": "2026-06-14T11:15:21.342Z",
+      "delivered_at": "2026-06-14T11:15:23.626Z"
+    },
+    "comm-zbu8ht6iqz8l4f2a1xr1h": {
+      "id": "comm-zbu8ht6iqz8l4f2a1xr1h",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-city-8",
+      "message": "Hey Arjun Delhi, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "opened",
+      "created_at": "2026-06-14T11:15:19.128Z",
+      "sent_at": "2026-06-14T11:15:21.344Z",
+      "delivered_at": "2026-06-14T11:15:23.466Z",
+      "opened_at": "2026-06-14T11:15:31.167Z"
+    },
+    "comm-kkxdmtdz2re9l3upb0n2pn": {
+      "id": "comm-kkxdmtdz2re9l3upb0n2pn",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-city-9",
+      "message": "Hey Komal Delhi, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "opened",
+      "created_at": "2026-06-14T11:15:19.130Z",
+      "sent_at": "2026-06-14T11:15:21.346Z",
+      "delivered_at": "2026-06-14T11:15:23.699Z",
+      "opened_at": "2026-06-14T11:15:30.692Z"
+    },
+    "comm-e4txb9iub7jhozckflidk": {
+      "id": "comm-e4txb9iub7jhozckflidk",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-city-10",
+      "message": "Hey Suresh Delhi, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "delivered",
+      "created_at": "2026-06-14T11:15:19.131Z",
+      "sent_at": "2026-06-14T11:15:21.348Z",
+      "delivered_at": "2026-06-14T11:15:24.270Z"
+    },
+    "comm-vgi4d8k7jf6opsz1lgt4p": {
+      "id": "comm-vgi4d8k7jf6opsz1lgt4p",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-cat-8",
+      "message": "Hey Deepika Beauty, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "delivered",
+      "created_at": "2026-06-14T11:15:19.132Z",
+      "sent_at": "2026-06-14T11:15:21.349Z",
+      "delivered_at": "2026-06-14T11:15:23.682Z"
+    },
+    "comm-tlkym9qtdxl2ukb8xzqzj": {
+      "id": "comm-tlkym9qtdxl2ukb8xzqzj",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-cat-9",
+      "message": "Hey Alia Beauty, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "clicked",
+      "created_at": "2026-06-14T11:15:19.133Z",
+      "sent_at": "2026-06-14T11:15:21.350Z",
+      "delivered_at": "2026-06-14T11:15:23.973Z",
+      "opened_at": "2026-06-14T11:15:28.027Z",
+      "clicked_at": "2026-06-14T11:15:36.860Z"
+    },
+    "comm-zhx5bim58ahneb7lcgcocd": {
+      "id": "comm-zhx5bim58ahneb7lcgcocd",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "customer_id": "cust-cat-10",
+      "message": "Hey Priyanka Beauty, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!",
+      "channel": "sms",
+      "status": "delivered",
+      "created_at": "2026-06-14T11:15:19.134Z",
+      "sent_at": "2026-06-14T11:15:21.353Z",
+      "delivered_at": "2026-06-14T11:15:24.154Z"
+    }
+  },
+  "campaign_stats": {
+    "camp-0sp11nk20whpc159suisn": {
+      "id": "camp-0sp11nk20whpc159suisn",
+      "campaign_id": "camp-0sp11nk20whpc159suisn",
+      "total_queued": 18,
+      "total_sent": 18,
+      "delivered": 18,
+      "failed": 2,
+      "opened": 15,
+      "clicked": 6,
+      "last_updated": "2026-06-14T10:42:53.986Z"
+    },
+    "camp-1a4xockfwplgughc5y96sq": {
+      "id": "camp-1a4xockfwplgughc5y96sq",
+      "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+      "total_queued": 26,
+      "total_sent": 26,
+      "delivered": 26,
+      "failed": 4,
+      "opened": 26,
+      "clicked": 12,
+      "last_updated": "2026-06-14T11:15:41.777Z"
+    }
+  },
+  "chat_messages": {
+    "welcome-id": {
+      "id": "welcome-id",
+      "role": "assistant",
+      "content": "Welcome to Xeno Mini! 🚀\nI'm your AI marketer. Describe your retail campaign goals in plain English, and I will parse your intent, construct custom segments from our regional database, draft a personalized template, and launch your multichannel engagements.",
+      "created_at": "2026-06-14T10:29:00.997Z"
+    },
+    "test_express_id": {
+      "id": "test_express_id",
+      "role": "assistant",
+      "content": "Express Test Message",
+      "created_at": "2026-06-14T10:29:00.999Z"
+    },
+    "hqq87f9a0xr9oymq65y5ot": {
+      "id": "hqq87f9a0xr9oymq65y5ot",
+      "role": "user",
+      "content": "Hello",
+      "created_at": "2026-06-14T10:29:09.123Z"
+    },
+    "k5szvej7dygctjg1nywa4": {
+      "id": "k5szvej7dygctjg1nywa4",
+      "role": "assistant",
+      "content": "Hello! How can I help you with your marketing campaigns today? I can help you segment your customers, draft personalized messages, or analyze campaign performance.",
+      "created_at": "2026-06-14T10:29:09.124Z"
+    },
+    "k9q7y559ex2u2idw6m1mv": {
+      "id": "k9q7y559ex2u2idw6m1mv",
+      "role": "user",
+      "content": "Target loyal customers with total spent above 15000 and send them a 20% discount coupon via WhatsApp.",
+      "created_at": "2026-06-14T10:29:28.469Z"
+    },
+    "xfqdub13cvl7b7q8gpu3cm": {
+      "id": "xfqdub13cvl7b7q8gpu3cm",
+      "role": "assistant",
+      "content": "I have created a campaign targeting your top-tier loyal customers (total spent > 15,000). We will send them a personalized WhatsApp message with a 20% discount coupon to show our appreciation.",
+      "metadata": {
+        "campaign_id": "camp-0sp11nk20whpc159suisn",
+        "campaign_name": "Loyal Customers High Spenders 20% Off",
+        "segment_description": "Customers with total spent greater than 15,000",
+        "audience_count": 18,
+        "audience_preview": [
+          {
+            "id": "cust-loyal-1",
+            "name": "Aarav Sharma",
+            "city": "Mumbai",
+            "total_spent": 16000
+          },
+          {
+            "id": "cust-loyal-2",
+            "name": "Aditi Patel",
+            "city": "Delhi",
+            "total_spent": 17100
+          },
+          {
+            "id": "cust-loyal-3",
+            "name": "Rohan Verma",
+            "city": "Bangalore",
+            "total_spent": 18200
+          },
+          {
+            "id": "cust-loyal-4",
+            "name": "Ananya Iyer",
+            "city": "Chennai",
+            "total_spent": 19300
+          },
+          {
+            "id": "cust-loyal-5",
+            "name": "Karan Malhotra",
+            "city": "Hyderabad",
+            "total_spent": 20400
+          }
+        ],
+        "channel": "whatsapp",
+        "message_template": "Hey {{name}}! 🌟 As one of our most valued customers, here is a special 20% off coupon for your next purchase: LOYAL20. Thank you for being with us!"
+      },
+      "created_at": "2026-06-14T10:29:28.494Z"
+    },
+    "38xj822lx0h6ugav1f4wgd": {
+      "id": "38xj822lx0h6ugav1f4wgd",
+      "role": "user",
+      "content": "Segment lapsing customers who haven't ordered in 45 days and compose an SMS wakeup coupon",
+      "created_at": "2026-06-14T11:15:19.101Z"
+    },
+    "kbmadx4wbieaumuwczz8uf": {
+      "id": "kbmadx4wbieaumuwczz8uf",
+      "role": "assistant",
+      "content": "I have created a re-engagement campaign targeting customers who haven't purchased in the last 45 days. We will send them a personalized SMS with a 15% discount coupon to win them back.",
+      "metadata": {
+        "campaign_id": "camp-1a4xockfwplgughc5y96sq",
+        "campaign_name": "Lapsing Customers Wakeup SMS",
+        "segment_description": "Customers whose last purchase was more than 45 days ago.",
+        "audience_count": 26,
+        "audience_preview": [
+          {
+            "id": "cust-lapsing-1",
+            "name": "Vikram Chawla",
+            "city": "Delhi",
+            "total_spent": 4000
+          },
+          {
+            "id": "cust-lapsing-2",
+            "name": "Sneha Rao",
+            "city": "Bangalore",
+            "total_spent": 4500
+          },
+          {
+            "id": "cust-lapsing-3",
+            "name": "Divya Menon",
+            "city": "Chennai",
+            "total_spent": 5000
+          },
+          {
+            "id": "cust-lapsing-4",
+            "name": "Gaurav Sen",
+            "city": "Hyderabad",
+            "total_spent": 5500
+          },
+          {
+            "id": "cust-lapsing-5",
+            "name": "Tanya Dutta",
+            "city": "Pune",
+            "total_spent": 6000
+          }
+        ],
+        "channel": "sms",
+        "message_template": "Hey {{name}}, we miss you! Use code WAKEUP15 for 15% off your next order. Valid for 48 hours!"
+      },
+      "created_at": "2026-06-14T11:15:19.136Z"
+    },
+    "olyh0fi4zhmp1316v3fb18": {
+      "id": "olyh0fi4zhmp1316v3fb18",
+      "role": "user",
+      "content": "GIVE MULTIPLE QUICK PRESETS",
+      "created_at": "2026-06-14T11:15:38.046Z"
+    },
+    "pi8hcfajvnhforlmaf0xsh": {
+      "id": "pi8hcfajvnhforlmaf0xsh",
+      "role": "assistant",
+      "content": "Here are some quick campaign presets you can launch right away:\n\n1. VIP Appreciation (WhatsApp): Target customers with total spent > 10,000. Send a 'Thank You' note with an exclusive 15% off.\n2. Win-Back Lapsed Buyers (SMS): Target customers who haven't ordered in 60 days. Send a 'We Miss You' 20% discount.\n3. Category Cross-Sell (Email): Target customers who bought from a specific category (e.g., 'Apparel') to recommend matching products.\n\nJust let me know which one you'd like to run, or describe your own goal!",
+      "created_at": "2026-06-14T11:15:38.049Z"
+    }
+  }
+}

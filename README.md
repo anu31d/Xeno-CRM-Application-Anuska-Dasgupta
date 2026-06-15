@@ -1,69 +1,69 @@
 # Xeno Mini 🚀
 
-Xeno Mini is a full-stack, chat-first consumer CRM designed for consumer brands. Instead of filling out complex multi-tab segmentation forms and filters, marketers simply prompt the embedded AI assistant in plain English to automatically execute precise database segments, draft personalized templates, dispatch campaigns, and track real-time delivery funnels.
+**AI-Powered Chat-First CRM** for consumer brands. Marketers interact with a conversational AI assistant to segment customers, personalize campaigns, execute broadcasts, and monitor real-time delivery metrics—eliminating complex forms and guesswork.
 
-## Architecture & Telemetry Flow
+**Tech Stack:** React 19 · TypeScript · Vite · Express · Node.js · Google Gemini API · Firebase/Firestore · TailwindCSS
 
-```text
-Marketer ──[Types Intent]──> Chat Panel (React App)
-                                  │
-                                  ▼
-                            POST /api/chat
-                                  │
-                                  ▼
-                         Express Backend (Node)
-                                  │
-      ┌───────────────────────────┴───────────────────────────┐
-      │ (Intent Analysis)                                     │ (Data Synchronization)
-      ▼                                                       ▼
-Google Gemini AI ───────────────────────────────> Cloud Firebase Database
-(Translates prompt to SQL/Rules)                 (Customers, Campaigns, Stats)
-                                                              │
-                                                              ▼
-                                                        POST /api/send
-                                                              │
-                                                              ▼
-                                                    [Channel Dispatch Queue]
-                                                              │
-                                                              ▼
-                                                    POST /channel/api/send
-                                                    (Background Simulator)
-                                                              │
-                       ┌──────────────────────────────────────┘
-                       │ (Webhook Delivery Receipt Callbacks)
-                       ▼
-               POST /api/receipt ───────────────────────────────────┐
-               (Updates database campaign communications & stats)   │
-                                                                    ▼
-                                                             GET /api/stats
-                                                             (Polled every 3s)
-                                                                    │
-                                                                    ▼
-                                                            Live Stats Panel
+## Core Features
+
+- **AI-Powered Segmentation:** Natural language queries translated to SQL-like rules via Google Gemini
+- **Real-Time Campaign Dispatch:** Concurrent message delivery with webhook receipt tracking
+- **Live Analytics Dashboard:** Polled stats panel showing delivery metrics and engagement funnels
+- **Auto-Seeded Database:** 50 sample customers + 150 orders for instant testing (no manual setup)
+
+## System Architecture
+
+```
+User Chat → React UI → Express API → Gemini AI (intent parsing)
+                          ↓
+                      Firestore DB ← Webhook callbacks (idempotent)
+                          ↓
+                    Campaign Dispatch → Live Stats (3s polling)
 ```
 
-## Production Tradeoffs & Scaling Ledger
+## Design Decisions for Scale
 
-1. **In-Memory Query Resolution:** Since the CRM features a responsive 50-customer regional client base, the segment clauses formulated by Gemini are computed safely inside the server. In production with millions of rows, we would execute this using custom PostgreSQL indexes, Elasticsearch, or partitioned BigQuery datasets.
-2. **Synchronous Fetch Operations:** Channel dispatch is triggered concurrently in Express. At scale, this would be decoupled using an AMQP message broker (like RabbitMQ, Amazon SQS, or Kafka) combined with a dead-letter queue (DLQ) to ensure no communication ever drops during transmission surges.
-3. **Webhook Callback Idempotency:** We implemented simple timestamp checking for callbacks to avoid double-processing. Under high-throughput production webhooks, we would utilize Redis-based lock managers or database unique constraints to guarantee absolute idempotency.
-4. **Multi-Tenancy & Authorization:** This regional assignment operates as a master controller. For distribution, we would introduce secure Multi-Tenant schemas, role-based access tokens, and Row-Level Security (RLS) rules.
+| Component | Current | Production Path |
+|-----------|---------|------------------|
+| **Query Execution** | In-memory filtering | PostgreSQL indexes / BigQuery partitions |
+| **Campaign Dispatch** | Concurrent async/await | AMQP broker (RabbitMQ/SQS) + DLQ |
+| **Webhook Idempotency** | Timestamp checks | Redis locks / DB constraints |
+| **Multi-Tenancy** | Single tenant | Row-Level Security (RLS) + JWT roles |
 
-## Local Operations Setup
+## Quick Start
 
-1. **Clone & Install Dependencies**
+```bash
+# Install & configure
+npm install
+cp .env.local.example .env.local  # Add your GEMINI_API_KEY
+
+# Run (auto-seeds Firestore with 50 customers + 150 orders)
+npm run dev
+# → Open http://localhost:3000
+```
+
+**Available Scripts:**
+- `npm run dev` — Start dev server
+- `npm run build` — Build for production
+- `npm run lint` — TypeScript verification
+- `npm start` — Run production server
+
+## 🔒 Security & Secrets
+
+### Local Development
+1. Copy config templates:
    ```bash
-   npm install
+   cp firebase-applet-config.json.example firebase-applet-config.json
+   cp .env.example .env.local
    ```
+2. Fill in real credentials (never commit these files)
 
-2. **Configure Local Environment**
-   Duplicate `.env.local.example` into a new `.env.local` file and add your custom `GEMINI_API_KEY` token from Google AI Studio.
+### GitHub Actions CI/CD
+Set these secrets in **GitHub → Settings → Secrets and variables → Actions:**
 
-3. **Database Telemetry Seed**
-   The application auto-seeds your Firestore Cloud Database with exactly 50 customers and 150 orders on its very first start! No manual database scripting required!
+| Secret | Source |
+|--------|--------|
+| `GEMINI_API_KEY` | [Google AI Studio](https://aistudio.google.com/app/apikey) |
+| `FIREBASE_CONFIG` | Firebase Console (as JSON string) |
 
-4. **Boot Development Environment**
-   ```bash
-   npm run dev
-   ```
-   Open [http://localhost:3000](http://localhost:3000) to start your chat CRM.
+See [SECURITY.md](SECURITY.md) for detailed instructions.

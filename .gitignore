@@ -6,3 +6,13 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Firebase configuration with secrets - NEVER commit real credentials
+firebase-applet-config.json
+!firebase-applet-config.json.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
